@@ -4,8 +4,12 @@ const Footer = () => {
     return(
         <div className="Footer">
             <p className="Footer-item">Based in Buenos Aires</p>
-            <p className="Footer-item">perinidante@gmail.com</p>
-            <p className="Footer-item">IMDB</p>
+            <p className="Footer-item"><a href="mailto:perinidante@gmail.com">perinidante@gmail.com</a></p>
+            <ul className="Footer-item__list">
+                <li><a href="https://www.imdb.com/name/nm13629021/" target="_blank">IMDB</a></li>
+                <li><a href="https://www.instagram.com/danteperini/" target="_blank">Instagram</a></li>
+                <li><a href="https://www.linkedin.com/in/perinidante/" target="_blank">LinkedIn</a></li>
+            </ul>
         </div>
     );
 };

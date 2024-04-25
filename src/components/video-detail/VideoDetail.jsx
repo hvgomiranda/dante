@@ -2,7 +2,7 @@ import "./VideoDetail.css";
 
 const VideoDetail = () => {
     return(
-        <div>VIDEO DETAIL</div>
+        <iframe src="" frameborder="0"></iframe>
     );
 };
 

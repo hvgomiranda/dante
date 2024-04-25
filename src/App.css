@@ -1,5 +1,4 @@
 .App{
-  height: 90vh;
   display: flex;
   flex-direction: row;
 }
@@ -8,6 +7,9 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.Right{
 }
 
 @keyframes App-logo-spin {

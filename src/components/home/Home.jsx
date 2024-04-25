@@ -1,12 +1,16 @@
 import "./Home.css";
-import datos from "../../data_base/database.json";
-import Video from "../video/Video.jsx";
+import HomeSection from "../home-section/HomeSection.jsx";
+import Media from "../../data_base/database.json";
 
-const Home = () => {
-    return(
+const Home = () => {    
+    return(  
         <div className="Home">
-            <Video videoId={datos[0].enlace} />
-            <Video videoId={datos[1].enlace} />
+            {Media.filter((item) => item.home).map((item, index) => (
+                <HomeSection
+                key={index}
+                Media={item}
+                />
+            ))}
         </div>
     );
 }
