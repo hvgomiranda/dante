@@ -1,12 +1,24 @@
 .Header{
-    margin-bottom: -25vh;
-    line-height: 1.2rem;
+    line-height: 0.2rem;
 }
-
-.Header-item{
+.Header-title{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: #2e2e2d;
+    text-decoration: none;
+    -webkit-user-select: none;
+    -ms-user-select: none; 
+    user-select: none;
+}
+.Header-subtitle{
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 1rem;
     color: #2e2e2d;
+    -webkit-user-select: none;
+    -ms-user-select: none; 
+    user-select: none;
 }

@@ -1,15 +1,17 @@
 .App{
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
 }
 
 .Left{
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: start;
+  padding: 0.5rem;
 }
 
 .Right{
+  display: flex;
 }
 
 @keyframes App-logo-spin {

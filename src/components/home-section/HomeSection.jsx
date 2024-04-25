@@ -16,7 +16,7 @@ const HomeSection = ({ Media }) => {
         swipe: false,
         initialSlide: 1,
         speed: 0,
-        autoplaySpeed: 400,
+        autoplaySpeed: 250,
         pauseOnHover: false
     };
 

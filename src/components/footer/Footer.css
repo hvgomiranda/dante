@@ -1,16 +1,22 @@
 .Footer{
-    line-height: 0.5rem;
 }
 
+.Footer > * ::selection{
+    color: red
+}
+.Footer > * :hover{
+    font-style: italic;
+}
 .Footer-item{
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 1rem;
-    bottom: 0;
-    line-height: 1.2rem;
+    font-size: 0.8rem;
+    line-height: 0.4rem;
 }
-
+.Footer-item::selection{
+    color: red
+}
 .Footer-item a{
     color: #2e2e2d;
     text-decoration: none;
@@ -20,13 +26,13 @@
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 1rem;
+    font-size: 0.8rem;
     list-style-type: none;
     padding-inline-start: 0px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    line-height: 1.2rem;
+    justify-content: flex-start;
+    line-height: 0.4rem;
 }
 .Footer-item__list a{
     color: #2e2e2d;

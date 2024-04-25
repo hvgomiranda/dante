@@ -1,14 +1,18 @@
 .Menu{
     list-style-type: none;
     padding-inline-start: 0px;
-    line-height: 1.8rem;
 }
-
+.Menu > * :hover{
+    font-style: italic;
+}
+.Menu > * ::selection{
+    color: red
+}
 .Menu-item{
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 1rem;
+    font-size: 0.8rem;
     color: #2e2e2d;
     text-decoration: none;
 }

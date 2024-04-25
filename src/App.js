@@ -16,11 +16,11 @@ function App() {
         <Menu />
         <Footer />
       </div>
-      <div className='right'>
+      <div className='Right'>
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/:tipo' element={<Videos />} />
-          <Route path='/:tipo/:video' element={<VideoDetail />} />
+          <Route path='/:seccion' element={<Videos />} />
+          <Route path='/:seccion/:video' element={<VideoDetail />} />
         </Routes>
       </div>
     </div>
