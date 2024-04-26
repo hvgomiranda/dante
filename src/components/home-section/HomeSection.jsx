@@ -1,6 +1,7 @@
 import "./HomeSection.css";
 import React, { useState } from 'react';
 import { Link } from "react-router-dom"
+import { motion } from "framer-motion";
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -28,7 +29,7 @@ const HomeSection = ({ Media }) => {
         >
             {showCarousel ? (
                 <div className="HomeSection__container">
-                    <Link to={""}>
+                    <Link to={`/${Media.tipo}/${Media.titulo}`}>
                         <Slider {...settings} className="HomeSection__slider">
                             {Media.imagenes.map((photo, index) => (
                                 <img
@@ -43,11 +44,15 @@ const HomeSection = ({ Media }) => {
                 </div>
             ) : (
                 <div className="HomeSection__container">
-                    <img
-                        className="HomeSection__image"
-                        src={Media.imagenes[0]}
-                        alt="First Image"
-                    />
+                    <Link to={`/${Media.tipo}/${Media.titulo}`}>
+                        <div className="HomeSection_slider">
+                            <img
+                                className="HomeSection__image"
+                                src={Media.imagenes[0]}
+                                alt="First Image"
+                            />
+                        </div>
+                    </Link>
                 </div>
             )}
         </div>
