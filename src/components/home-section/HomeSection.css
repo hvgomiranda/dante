@@ -1,9 +1,12 @@
 .HomeSection{
-
+    border: 2px blue solid;
+    flex: 1;
 }
 .HomeSection__container{
-    width: 41.66vw;
+    width: 40vw;
     height: 100vh;
+    border: 2px green solid;
+    overflow: hidden;
 }
 .HomeSection__slider{
     width: 100%;

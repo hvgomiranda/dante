@@ -10,7 +10,7 @@ import VideoDetail from "./components/video-detail/VideoDetail.jsx";
 function App() {
 
   return (
-    <div className="App poppins-regular Scroll-watcher">
+    <div className="App">
       <div className='Left'>
         <Header />
         <Menu />
