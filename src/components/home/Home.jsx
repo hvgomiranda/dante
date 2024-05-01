@@ -8,6 +8,7 @@ const Home = () => {
             {Media.filter((item) => item.home).map((item, index) => (
                 <HomeSection
                 key={index}
+                Index={index}
                 Media={item}
                 />
             ))}

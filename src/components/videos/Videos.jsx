@@ -9,7 +9,7 @@ const Videos = () => {
     console.log(seccion)
 
     return(
-        <div>
+        <div className="Videos">
             {Datos.filter((dato) => (dato.tipo === seccion)).map((dato, index) => (
                 <HomeSection
                 key={index}

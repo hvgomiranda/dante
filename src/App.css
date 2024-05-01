@@ -6,8 +6,18 @@
 .Left{
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  padding: 0.5rem;
+  justify-content: space-between;
+  position: relative;
+}
+.Left_up{
+  padding: 0.8rem 1rem 0.8rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  justify-content: space-between;
+  text-justify: justify;
+  top: 0;
+  position: sticky;
 }
 
 .Right{

@@ -12,8 +12,10 @@ function App() {
   return (
     <div className="App">
       <div className='Left'>
-        <Header />
-        <Menu />
+        <div className='Left_up'>
+          <Header />
+          <Menu />
+        </div>
         <Footer />
       </div>
       <div className='Right'>
