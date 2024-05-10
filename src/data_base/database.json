@@ -114,11 +114,11 @@
     "home": 0,
     "enlace-img": "",
     "imagenes": [
-      "/media/Peleretti/Peleretti1_1.jpg",
-      "/media/Peleretti/Peleretti1_2.jpg",
-      "/media/Peleretti/Peleretti1_3.jpg",
-      "/media/Peleretti/Peleretti1_4.jpg",
-      "/media/Peleretti/Peleretti1_5.jpg"
+      "/media/Peleritti1/Peleritti1_1.jpg",
+      "/media/Peleritti1/Peleritti1_2.jpg",
+      "/media/Peleritti1/Peleritti1_3.jpg",
+      "/media/Peleritti1/Peleritti1_4.jpg",
+      "/media/Peleritti1/Peleritti1_5.jpg"
     ],
     "fuentes-img": [
       "https://drive.google.com/file/d/115wOGmNkr7wNqsSu6jSZQxEn3vuDbWFH/view?usp=drive_link",
@@ -139,12 +139,12 @@
     "home": 0,
     "enlace-img": "",
     "imagenes": [
-      "/media/Peleretti/Peleretti2_1.jpg",
-      "/media/Peleretti/Peleretti2_2.jpg",
-      "/media/Peleretti/Peleretti2_3.jpg",
-      "/media/Peleretti/Peleretti2_4.jpg",
-      "/media/Peleretti/Peleretti2_5.jpg",
-      "/media/Peleretti/Peleretti2_6.jpg"
+      "/media/Peleritti2/Peleritti2_1.jpg",
+      "/media/Peleritti2/Peleritti2_2.jpg",
+      "/media/Peleritti2/Peleritti2_3.jpg",
+      "/media/Peleritti2/Peleritti2_4.jpg",
+      "/media/Peleritti2/Peleritti2_5.jpg",
+      "/media/Peleritti2/Peleritti2_6.jpg"
     ],
     "fuentes-img": [
       "https://drive.google.com/file/d/1M_45Sv-3K7g0NCyoUMUdHmADU7cGjDcj/view?usp=drive_link",
@@ -200,7 +200,7 @@
     "home": 0,
     "enlace-img": "https://www.imdb.com/title/tt15655872/",
     "imagenes": [
-      "/media/Coppola/Coppola_Still.jpg"
+      "/media/Coppola/Coppola_Still.jpeg"
     ],
     "fuentes-img": [
       "https://drive.google.com/file/d/1BinGKXdw-tEl9P62VP6SfIOW5nYSD2VN/view?usp=sharing"
@@ -492,11 +492,11 @@
     "home": 0,
     "enlace-img": "",
     "imagenes": [
-      "/media/EKS3/EKS3_1.png",
-      "/media/EKS3/EKS3_2.png",
-      "/media/EKS3/EKS3_3.png",
-      "/media/EKS3/EKS3_4.png",
-      "/media/EKS3/EKS3_5.png"
+      "/media/EKS3/EKS3_1.jpg",
+      "/media/EKS3/EKS3_2.jpg",
+      "/media/EKS3/EKS3_3.jpg",
+      "/media/EKS3/EKS3_4.jpg",
+      "/media/EKS3/EKS3_5.jpg"
     ],
     "fuente-img": [
       "https://drive.google.com/file/d/1WIEHEIpVBfWMShSOuK1Nacz5x2b06dxB/view?usp=drive_link",
@@ -510,17 +510,17 @@
     "id": 29,
     "titulo": "Pablo Pellegrini - Live Show",
     "ruta": "Pablo-Pellegrini-Live",
-    "tipo": "commercials",
+    "tipo": "music-videos",
     "enlace": "SrjkGF9N_D0",
     "creditos": "Pablo Pellegrini - Live Show",
     "foto": 0,
     "home": 0,
     "enlace-img": "",
     "imagenes": [
-      "/media/PabloPellegriniLive/PabloPellegriniLive_1.png",
-      "/media/PabloPellegriniLive/PabloPellegriniLive_2.png",
-      "/media/PabloPellegriniLive/PabloPellegriniLive_3.png",
-      "/media/PabloPellegriniLive/PabloPellegriniLive_4.png"
+      "/media/PabloPellegriniLive/PabloPellegriniLive_1.jpg",
+      "/media/PabloPellegriniLive/PabloPellegriniLive_2.jpg",
+      "/media/PabloPellegriniLive/PabloPellegriniLive_3.jpg",
+      "/media/PabloPellegriniLive/PabloPellegriniLive_4.jpg"
     ],
     "fuente-img": [
       "https://drive.google.com/file/d/1kpAl-rHu0miUN4cEgQUe0vBIy7YIGKv9/view?usp=drive_link",

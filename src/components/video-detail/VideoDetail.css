@@ -1,0 +1,12 @@
+.VideoDetail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px 0px 0px 0px;
+}
+.VideoDetail__credits{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+}

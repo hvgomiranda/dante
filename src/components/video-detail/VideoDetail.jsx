@@ -14,7 +14,7 @@ const VideoDetail = ({ Datos }) => {
                 key={videoFound.id}
                 Video={videoFound}
             />}
-            <div>
+            <div className="VideoDetail__credits">
                 <p>{videoFound.creditos}</p>
             </div>
         </div>

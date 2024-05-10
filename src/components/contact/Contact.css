@@ -1,0 +1,37 @@
+.Contact{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-end;
+}
+.Contact input{
+    margin: 0px 5px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    color: #2e2e2d;
+    padding: 5px;
+    border: #2e2e2d 1px solid;
+}
+input[type=email]{
+    width: 20vw;
+}
+::placeholder {
+    color: #2e2e2d;
+    opacity: 1;
+  }
+  
+  ::-ms-input-placeholder {
+    color: #2e2e2d;
+  }
+
+input[type=submit]{
+    width: 5vw;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: #2e2e2d 1px solid;
+    background-color: white;
+}

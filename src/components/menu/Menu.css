@@ -1,4 +1,5 @@
-.Menu{
+
+.Menu > * {
     list-style-type: none;
     padding-inline-start: 0px;
 }
@@ -16,4 +17,30 @@
     color: #2e2e2d;
     text-decoration: none;
     padding-left: 10px;
+}
+
+.Menu-toggle {
+    display: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.85rem;
+    color: #2e2e2d;
+}
+
+@media (max-width: 768px) {
+    .Menu-toggle {
+        display: block;
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+
+    .Menu-list {
+        display: none;
+    }
+
+    .Menu-list-open {
+        display: block;
+    }
 }

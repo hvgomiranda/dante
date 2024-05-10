@@ -21,3 +21,26 @@
   top: 0;
   position: sticky;
 }
+
+@media (max-width: 768px){
+  .App{
+    display: flex;
+    flex-direction: column;
+  }
+  .Left{
+    display: flex;
+    flex-direction: row;
+    height: 7vh;
+    min-height: 5vh;
+  }
+  .Left_up{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 7vh;
+    width: 100%;
+    justify-content: space-between;
+    text-justify: justify;
+    top: 0;
+    position: sticky;
+  }
+}

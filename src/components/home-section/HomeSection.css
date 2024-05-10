@@ -39,3 +39,12 @@
     height: 100dvh;
     object-fit: cover;
 }
+
+@media (max-width: 768px){
+    .HomeSection__container{
+        width: 100dvw;
+    }
+    .HomeSection_containerLarge{
+        width: 100dvw;
+    }
+}
