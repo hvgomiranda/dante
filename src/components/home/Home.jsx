@@ -1,8 +1,7 @@
 import "./Home.css";
 import HomeSection from "../home-section/HomeSection.jsx";
-import Media from "../../data_base/database.json";
 
-const Home = () => {    
+const Home = ({ Media }) => {
     return(  
         <div className="Home">
             {Media.filter((item) => item.home).map((item, index) => (

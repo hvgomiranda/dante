@@ -1,5 +1,6 @@
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
+import Datos from "./data_base/database.json";
 import Header from "./components/header/Header.jsx";
 import Footer from "./components/footer/Footer.jsx";
 import Menu from "./components/menu/Menu.jsx";
@@ -20,9 +21,9 @@ function App() {
       </div>
       <div className='Right'>
         <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/:seccion' element={<Videos />} />
-          <Route path='/:seccion/:video' element={<VideoDetail />} />
+          <Route path='/video/:video' element={<VideoDetail Datos={Datos}/>} />
+          <Route path='/:seccion' element={<Videos Datos={Datos} />} />
+          <Route path='/' element={<Home Media={Datos}/>} />
         </Routes>
       </div>
     </div>

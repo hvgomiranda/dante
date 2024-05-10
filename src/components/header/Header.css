@@ -2,20 +2,30 @@
     line-height: 0.2rem;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
+    text-align: center;
     font-style: normal;
+    white-space: nowrap;
+}
+.Header-title,
+.Header-subtitle p{
+    max-width: 100%;
+    text-justify: inter-word;
+    text-overflow: clip;
 }
 .Header-title{
-    font-size: 1.5rem;
+    font-size: 1.15rem;
     color: #2e2e2d;
     text-decoration: none;
     -webkit-user-select: none;
     -ms-user-select: none; 
     user-select: none;
+    letter-spacing: 0.1ch;
 }
 .Header-subtitle{
-    font-size: 1rem;
+    font-size: 0.9rem;
     color: #2e2e2d;
     -webkit-user-select: none;
     -ms-user-select: none; 
     user-select: none;
+    letter-spacing: 0.33ch;
 }

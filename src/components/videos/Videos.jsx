@@ -1,19 +1,19 @@
 import "./Videos.css";
-import { useParams } from "react-router-dom";
-import Datos from "../../data_base/database.json";
 import HomeSection from "../home-section/HomeSection";
+import { useParams } from "react-router-dom";
 
-const Videos = () => {
+const Videos = ({ Datos }) => {
 
     const {seccion} = useParams();
-    console.log(seccion)
+
+    const DatosMezclados = Datos.sort(() => Math.random() - Math.random());
 
     return(
         <div className="Videos">
-            {Datos.filter((dato) => (dato.tipo === seccion)).map((dato, index) => (
+            {DatosMezclados.filter((dato) => (dato.tipo === seccion)).map((dato, index) => (
                 <HomeSection
-                key={index}
-                Media={dato}
+                    key={index}
+                    Media={dato}
                 />
             ))}
         </div>
