@@ -9,7 +9,10 @@
   align-items: center;
   justify-content: space-between;
   position: relative;
-  min-height: 100dvh;
+  height: 100dvh;
+  text-justify: justify;
+  top: 0;
+  position: sticky;
 }
 .Left_up{
   display: flex;
@@ -17,9 +20,6 @@
   height: 50vh;
   width: 100%;
   justify-content: space-between;
-  text-justify: justify;
-  top: 0;
-  position: sticky;
 }
 
 @media (max-width: 768px){

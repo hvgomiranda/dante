@@ -22,10 +22,10 @@
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: "Poppins", sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-style: normal;
-    font-size: 3rem;
-    line-height: 2.5rem;
+    font-size: 1.2rem;
+    line-height: 0.4rem;
     color: white;
     width: 100%;
 }

@@ -2,9 +2,10 @@
     line-height: 0.2rem;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
-    text-align: center;
+    text-align: left;
     font-style: normal;
     white-space: nowrap;
+    padding-left: 10px;
 }
 .Header-title,
 .Header-subtitle p{
@@ -13,6 +14,7 @@
     text-overflow: clip;
 }
 .Header-title{
+    font-weight: 600;
     font-size: 1.15rem;
     color: #2e2e2d;
     text-decoration: none;

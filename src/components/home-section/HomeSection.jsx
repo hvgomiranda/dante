@@ -2,14 +2,31 @@ import "./HomeSection.css";
 import React, { useState, useEffect } from 'react';
 import { Link } from "react-router-dom"
 import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import { motion } from "framer-motion";
-
 
 const HomeSection = ({ Media, Index }) => {
     const [showCarousel, setShowCarousel] = useState(false);
     const [imagesLoaded, setImagesLoaded] = useState(false);
+    const [data, setData] = useState({});
+
+    useEffect(() => {
+
+        setData(Media);
+
+    }, []);
+
+    const renderTitulo = (titulo) => {
+        const lineas = titulo.split('\n');
+        return (
+          <div>
+            {lineas.map((linea, index) => (
+              <p key={index}>{linea}</p>
+            ))}
+          </div>
+        );
+      };
 
     const settings = {
         infinite: true,
@@ -95,7 +112,7 @@ const HomeSection = ({ Media, Index }) => {
                         )}
                         <div 
                         className="HomeSection__text">
-                            <p>{ Media.titulo }</p>
+                            <p>{renderTitulo(Media.titulo)}</p>
                         </div>
                     </Link>
                 </div>

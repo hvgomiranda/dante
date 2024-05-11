@@ -1,7 +1,7 @@
 [
   {
     "id": 0,
-    "titulo": "Dante Spinetta, Trueno - Sudaka",
+    "titulo": "Sudaka\nDante Spinetta y Trueno",
     "ruta": "Dante-Spinetta-Trueno-Sudaka",
     "tipo": "music-videos",
     "enlace": "H4fYajSj0RU",
@@ -27,11 +27,11 @@
     ]
   },
   {
-    "id": 1,
+    "id": 14,
     "titulo": "Algo de Carlos",
     "ruta": "Algo-de-Carlos",
     "tipo": "film-tv-series",
-    "enlace": "",
+    "enlace": "0wcRUhesrHc",
     "creditos": "Algo de Carlos (Mini Series)\nDir.: Santiago Korovsky",
     "foto": 1,
     "home": 1,
@@ -53,7 +53,7 @@
   },
   {
     "id": 2,
-    "titulo": "Pablo Pellegrini & Chico Rico - Warhol RMX",
+    "titulo": "Warhol RMX\nPablo Pellegrini & Chico Rico",
     "ruta": "Pablo-Pellegrini-Chico-Rico-Warhol-RMX",
     "tipo": "music-videos",
     "enlace": "D1KNRRRqp8I",
@@ -80,7 +80,7 @@
   },
   {
     "id": 3,
-    "titulo": "Pablo Pellegrini - Soplo",
+    "titulo": "Soplo\nPablo Pellegrini",
     "ruta": "Pablo-Pellegrini-Soplo",
     "tipo": "music-videos",
     "enlace": "ZNQGKy1DHiw",
@@ -105,7 +105,7 @@
   },
   {
     "id": 4,
-    "titulo": "Carolina del Carmen Peleritti - Zamba del renacer",
+    "titulo": "Zamba del renacer\nCarolina del Carmen Peleritti",
     "ruta": "Carolina-del-Carmen-Peleritti-Zamba-del-renacer",
     "tipo": "music-videos",
     "enlace": "K_3E4BvbqoY",
@@ -130,7 +130,7 @@
   },
   {
     "id": 5,
-    "titulo": "Carolina del Carmen Peleritti - Coplas para la luna",
+    "titulo": "Coplas para la luna\nCarolina del Carmen Peleritti",
     "ruta": "Carolina-del-Carmen-Peleritti-Coplas-para-la-luna",
     "tipo": "music-videos",
     "enlace": "KpeYhCr3jV4",
@@ -174,7 +174,7 @@
   },
   {
     "id": 7,
-    "titulo": "Menem - (Amazon Prime Video Series)",
+    "titulo": "Menem\n(Amazon Prime Video Series)",
     "ruta": "Menem",
     "tipo": "film-tv-series",
     "enlace": "",
@@ -191,10 +191,10 @@
   },
   {
     "id": 8,
-    "titulo": "Coppola, The Manager (Star+ Series)",
+    "titulo": "Coppola, The Manager\n(Star+ Series)",
     "ruta": "Coppola",
     "tipo": "film-tv-series",
-    "enlace": "",
+    "enlace": "A9gzIiwLlCQ",
     "creditos": "Coppola, The Manager (Star+ Series)\n(additional editing - ep. 6, uncredited)",
     "foto": 1,
     "home": 0,
@@ -279,7 +279,7 @@
   },
   {
     "id": 12,
-    "titulo": "El silencio de las flores (Documentary Short Film)",
+    "titulo": "El silencio de las flores\n(Documentary Short Film)",
     "ruta": "El-silencio-de-las-flores",
     "tipo": "film-tv-series",
     "enlace": "c0DnO15acp8",
@@ -328,8 +328,8 @@
     ]
   },
   {
-    "id": 14,
-    "titulo": "Levi’s (Hero I)",
+    "id": 1,
+    "titulo": "Levi’s",
     "ruta": "Levis-hero-1",
     "tipo": "commercials",
     "enlace": "AZprH9hCcPY",
@@ -360,7 +360,7 @@
   },
   {
     "id": 16,
-    "titulo": "Nosotras - Pleasure instead of pain (Director's Cut)",
+    "titulo": "Nosotras\nPleasure instead of pain (Director's Cut)",
     "ruta": "Nosotras-pleasure-instead-of-pain",
     "tipo": "commercials",
     "enlace": "C_dJXPuvZhg",
@@ -458,7 +458,7 @@
   },
   {
     "id": 27,
-    "titulo": "Perotá Chingó - Muta: Retiros",
+    "titulo": "Muta: Retiros\nPerotá Chingó",
     "ruta": "Perota-Chingo-Muta-Retiros",
     "tipo": "commercials",
     "enlace": "gu8vyBTR46I",
@@ -483,7 +483,7 @@
   },
   {
     "id": 28,
-    "titulo": "Perotá Chingó - EKS3 (Official Trailer)",
+    "titulo": "EKS3 (Official Trailer)\nPerotá Chingó",
     "ruta": "Perota-Chingo-Muta-EKS3",
     "tipo": "commercials",
     "enlace": "0BHERKdQiIQ",
@@ -508,7 +508,7 @@
   },
   {
     "id": 29,
-    "titulo": "Pablo Pellegrini - Live Show",
+    "titulo": "Pablo Pellegrini\nLive Show",
     "ruta": "Pablo-Pellegrini-Live",
     "tipo": "music-videos",
     "enlace": "SrjkGF9N_D0",

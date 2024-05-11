@@ -1,6 +1,8 @@
 .Footer{
     position: absolute;
     bottom: 0;
+    width: 100%;
+    padding-left: 10px;
 }
 
 .Footer > * ::selection{
@@ -15,7 +17,7 @@
     font-style: normal;
     font-size: 0.85rem;
     line-height: 0.4rem;
-    text-align: center;
+    text-align: left;
 }
 .Footer-item::selection{
     color: red
@@ -34,13 +36,17 @@
     padding-inline-start: 0px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: left;
     line-height: 0.4rem;
 }
 .Footer-item__list a{
     color: #2e2e2d;
     text-decoration: none;
     font-size: 0.85rem;
+    padding-right: 20px;
+}
+.Footer-item_list a:last-child{
+    padding-right: 0px;
 }
 
 @media (max-width: 768px){
