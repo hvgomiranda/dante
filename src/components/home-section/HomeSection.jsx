@@ -22,7 +22,7 @@ const HomeSection = ({ Media, Index }) => {
         return (
           <div>
             {lineas.map((linea, index) => (
-              <p key={index}>{linea}</p>
+              <p key={index}>{linea.toUpperCase()}</p>
             ))}
           </div>
         );
@@ -33,9 +33,9 @@ const HomeSection = ({ Media, Index }) => {
         autoplay: true,
         arrows: false,
         swipe: false,
-        initialSlide: 1,
+        initialSlide: 0,
         speed: 0,
-        autoplaySpeed: 250,
+        autoplaySpeed: 200,
         pauseOnHover: false
     };
 
