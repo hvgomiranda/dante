@@ -1,7 +1,7 @@
 [
   {
     "id": 0,
-    "titulo": "Sudaka\nDante Spinetta y Trueno",
+    "titulo": "Sudaka\nDante Spinetta & Trueno",
     "ruta": "Dante-Spinetta-Trueno-Sudaka",
     "tipo": "music-videos",
     "enlace": "H4fYajSj0RU",
@@ -28,7 +28,7 @@
   },
   {
     "id": 14,
-    "titulo": "Algo de Carlos",
+    "titulo": "Algo de Carlos\n(Web Mini series)",
     "ruta": "Algo-de-Carlos",
     "tipo": "film-tv-series",
     "enlace": "0wcRUhesrHc",
@@ -157,7 +157,7 @@
   },
   {
     "id": 6,
-    "titulo": "Nuestra Cosa Perdida",
+    "titulo": "Nuestra Cosa Perdida\n(Documentary Feature Film)",
     "ruta": "Nuestra-cosa-perdida",
     "tipo": "film-tv-series",
     "enlace": "",
@@ -183,7 +183,9 @@
     "home": 0,
     "enlace-img": "",
     "imagenes": [
-      "/media/Menem/Menem_Still.png"
+      "/media/Menem/Menem_1.png",
+      "/media/Menem/Menem_2.png",
+      "/media/Menem/Menem_3.png"
     ],
     "fuentes-img": [
       "https://drive.google.com/file/d/17aNdbiHNKGwiLMkQboL5eSH--OUwKYhl/view?usp=sharing"
@@ -208,7 +210,7 @@
   },
   {
     "id": 9,
-    "titulo": "Misión Peluche (Short Film)",
+    "titulo": "Misión Peluche\n(Short Film)",
     "ruta": "Mision-peluche",
     "tipo": "film-tv-series",
     "enlace": "A7dwioI9xI0",
@@ -233,7 +235,7 @@
   },
   {
     "id": 10,
-    "titulo": "Una de tantas (Short Film)",
+    "titulo": "Una de tantas\n(Short Film)",
     "ruta": "Una-de-tantas",
     "tipo": "film-tv-series",
     "enlace": "KVwXeg0f070",
@@ -254,7 +256,7 @@
   },
   {
     "id": 11,
-    "titulo": "Transeúnte (Documentary Short Film)",
+    "titulo": "Transeúnte\n(Documentary Short Film)",
     "ruta": "Transeunte",
     "tipo": "film-tv-series",
     "enlace": "pPljB-ZH4_w",
@@ -304,7 +306,7 @@
   },
   {
     "id": 2,
-    "titulo": "Quilmes IPA (Director's Cut)",
+    "titulo": "Quilmes IPA\n(Director's Cut)",
     "ruta": "Quilmes-IPA",
     "tipo": "commercials",
     "enlace": "8UsNtUbLbnQ",
@@ -385,7 +387,7 @@
   },
   {
     "id": 24,
-    "titulo": "Almamora - El amor es inevitable (Redux)",
+    "titulo": "Almamora\nEl amor es inevitable",
     "ruta": "Almamora-el-amor-es-inevitable",
     "tipo": "commercials",
     "enlace": "QZNxsckAO-I",
@@ -394,9 +396,9 @@
     "home": 1,
     "enlace-img": "",
     "imagenes": [
-      "/media/Almamora/Almamora_1.jpg",
-      "/media/Almamora/Almamora_2.jpg",
-      "/media/Almamora/Almamora_3.jpg"
+      "/media/Almamora/Almamora_1.png",
+      "/media/Almamora/Almamora_2.png",
+      "/media/Almamora/Almamora_3.png"
     ],
     "fuente-img": [
       "https://drive.google.com/file/d/1R2SDnbInbGSDiEE_t2MfPW0NLoZ9hfUy/view?usp=drive_link",
@@ -406,7 +408,7 @@
   },
   {
     "id": 25,
-    "titulo": "Perotá Chingó - Muta: Campodónico",
+    "titulo": "Perotá Chingó\nMuta: Campodónico",
     "ruta": "Perota-Chingo-Muta-Campodonico",
     "tipo": "commercials",
     "enlace": "r74pPT-AYhk",
@@ -431,7 +433,7 @@
   },
   {
     "id": 26,
-    "titulo": "Perotá Chingó - Muta: Eksperimenta I/II",
+    "titulo": "Perotá Chingó\nMuta: Eksperimenta I/II",
     "ruta": "Perota-Chingo-Muta-Eksperimenta",
     "tipo": "commercials",
     "enlace": "5VrU0tSXySM",
@@ -458,7 +460,7 @@
   },
   {
     "id": 27,
-    "titulo": "Muta: Retiros\nPerotá Chingó",
+    "titulo": "Perotá Chingó\nMuta: Retiros",
     "ruta": "Perota-Chingo-Muta-Retiros",
     "tipo": "commercials",
     "enlace": "gu8vyBTR46I",
@@ -483,7 +485,7 @@
   },
   {
     "id": 28,
-    "titulo": "EKS3 (Official Trailer)\nPerotá Chingó",
+    "titulo": "Perotá Chingó\nEKS3 (Official Trailer)",
     "ruta": "Perota-Chingo-Muta-EKS3",
     "tipo": "commercials",
     "enlace": "0BHERKdQiIQ",
@@ -510,7 +512,7 @@
     "id": 29,
     "titulo": "Pablo Pellegrini\nLive Show",
     "ruta": "Pablo-Pellegrini-Live",
-    "tipo": "music-videos",
+    "tipo": "commercials",
     "enlace": "SrjkGF9N_D0",
     "creditos": "Pablo Pellegrini - Live Show",
     "foto": 0,

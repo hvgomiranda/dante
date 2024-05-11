@@ -6,13 +6,12 @@ const Videos = ({ Datos }) => {
 
     const {seccion} = useParams();
 
-    const DatosMezclados = Datos.sort(() => Math.random() - Math.random());
-
     return(
         <div className="Videos">
-            {DatosMezclados.filter((dato) => (dato.tipo === seccion)).map((dato, index) => (
+            {Datos.filter((dato) => (dato.tipo === seccion)).map((dato, index) => (
                 <HomeSection
                     key={index}
+                    Index={index}
                     Media={dato}
                 />
             ))}

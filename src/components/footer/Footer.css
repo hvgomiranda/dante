@@ -6,7 +6,7 @@
 }
 
 .Footer > * ::selection{
-    color: red
+    color: #070096;
 }
 .Footer > * :hover{
     font-style: italic;
@@ -20,7 +20,7 @@
     text-align: left;
 }
 .Footer-item::selection{
-    color: red
+    color: #070096;
 }
 .Footer-item a{
     color: #2e2e2d;
@@ -43,7 +43,7 @@
     color: #2e2e2d;
     text-decoration: none;
     font-size: 0.85rem;
-    padding-right: 20px;
+    padding-right: 15px;
 }
 .Footer-item_list a:last-child{
     padding-right: 0px;

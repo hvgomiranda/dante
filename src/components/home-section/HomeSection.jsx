@@ -35,7 +35,7 @@ const HomeSection = ({ Media, Index }) => {
         swipe: false,
         initialSlide: 0,
         speed: 0,
-        autoplaySpeed: 200,
+        autoplaySpeed: 250,
         pauseOnHover: false
     };
 
@@ -59,32 +59,6 @@ const HomeSection = ({ Media, Index }) => {
     }, [Media.imagenes]);
 
     return (
-        /*
-          <div className="HomeSection__text">
-                            {Media.titulo.split(" ").map((el, i) => (
-                                <motion.span
-                                initial={{ opacity: 0 }}
-                                animate={{ opacity: 1 }}
-                                transition={{
-                                    duration: 0.25,
-                                    delay: i / 10,
-                                    }}
-                                key={i}
-                                >
-                                {el}{" "}
-                                </motion.span>
-                            ))}
-                        </div>
-                                                 <motion.div 
-                        className="HomeSection__text"
-                        initial={{ opacity: 0 }}
-                        whileHover={{ opacity: 1 }}
-                        transition={{ duration: 0.3 }}>
-                            <p> { Media.titulo } </p>
-                        </motion.div>       
-        
-        */
-
         <motion.div
             className="HomeSection"
             initial={{ opacity: 0 }}

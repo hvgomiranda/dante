@@ -25,9 +25,10 @@ const Contact = () => {
 
   return (
     <form ref={form} onSubmit={sendEmail} autoComplete="on" className="Contact">
-      <input placeholder="Name" type="text" name="user_name" />
-      <input placeholder="Email" type="email" name="user_email" />
-      <input placeholder="Message" type="text" name="user_message" />
+      <p>Contact me</p>
+      <input placeholder="Name" required type="text" name="user_name" />
+      <input placeholder="Email" required type="email" name="user_email" />
+      <textarea placeholder="Message" required name="user_message" />
       <input type="submit" value="Send" />
     </form>
   );

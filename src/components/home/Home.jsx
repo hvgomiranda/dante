@@ -16,15 +16,6 @@ const Home = ({ Media }) => {
                 Media={item}
                 />
             ))}
-            <motion.div
-                initial={{ opacity: 0 }}
-                whileInView={{ opacity: 1 }}
-                transition={{ duration: 0.7 }}
-                viewport={{ amount: 0.05 }}
-                style={{width:"100%", padding:"10px 10px 10px 0px"}}
-            >
-                <Contact />
-            </motion.div>
         </div>
     );
 }
