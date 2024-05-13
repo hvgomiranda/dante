@@ -6,6 +6,8 @@ const Videos = ({ Datos }) => {
 
     const {seccion} = useParams();
 
+    window.scrollTo(0,0);
+
     return(
         <div className="Videos">
             {Datos.filter((dato) => (dato.tipo === seccion)).map((dato, index) => (

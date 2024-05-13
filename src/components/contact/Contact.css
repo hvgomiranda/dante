@@ -6,6 +6,9 @@
     justify-content: flex-end;
     padding: 10vh 0;
 }
+.Contact p::selection{
+    color: #070096;
+}
 .Contact p{
     font-family: "Poppins", sans-serif;
     font-weight: 400;
@@ -35,6 +38,14 @@
     margin: 10px 0px;
     padding: 5px;
     border: #2e2e2d 1px solid;
+}
+.Contact input::selection{
+    color: white;
+    background-color: #2e2e2d;
+}
+.Contact textarea::selection{
+    color: white;
+    background-color: #2e2e2d;
 }
 ::placeholder {
     color: #2e2e2d;
