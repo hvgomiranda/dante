@@ -1,4 +1,10 @@
 .Contact{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Contact__form{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -6,16 +12,16 @@
     justify-content: flex-end;
     padding: 10vh 0;
 }
-.Contact p::selection{
+.Contact__form p::selection{
     color: #070096;
 }
-.Contact p{
+.Contact__form p{
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 1rem;
 }
-.Contact input{
+.Contact__form input{
     margin: 0px 5px;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
@@ -27,7 +33,7 @@
     width: 30%;
     margin: 10px 0px;
 }
-.Contact textarea{
+.Contact__form textarea{
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     resize: none;
@@ -39,11 +45,11 @@
     padding: 5px;
     border: #2e2e2d 1px solid;
 }
-.Contact input::selection{
+.Contact__form input::selection{
     color: white;
     background-color: #2e2e2d;
 }
-.Contact textarea::selection{
+.Contact__form textarea::selection{
     color: white;
     background-color: #2e2e2d;
 }
@@ -68,4 +74,15 @@ input[type=submit]:hover{
     background-color: #2e2e2d;
     opacity: 0.75;
     color: white;
+}
+.Contact__thanks{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    resize: none;
+    font-style: normal;
+    font-size: 2rem;
+    color: #2e2e2d;
+}
+.Contact__thanks::selection{
+    color:#070096;
 }

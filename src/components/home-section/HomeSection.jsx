@@ -9,13 +9,6 @@ import { motion } from "framer-motion";
 const HomeSection = ({ Media, Index }) => {
     const [showCarousel, setShowCarousel] = useState(false);
     const [imagesLoaded, setImagesLoaded] = useState(false);
-    const [data, setData] = useState({});
-
-    useEffect(() => {
-
-        setData(Media);
-
-    }, []);
 
     const renderTitulo = (titulo) => {
         const lineas = titulo.split('\n');
@@ -52,7 +45,7 @@ const HomeSection = ({ Media, Index }) => {
 
             Promise.all(imagePromises)
                 .then(() => setImagesLoaded(true))
-                .catch((error) => console.error('Error preloading images:', error));
+                .catch((error) => console.error("Error preloading images:", error));
         };
 
         preloadImages();
