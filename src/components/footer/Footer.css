@@ -1,12 +1,10 @@
 .Footer{
-    position: absolute;
-    bottom: 0;
     width: 100%;
     padding-left: 10px;
 }
 
 .Footer > * ::selection{
-    color: #070096;
+    color: #00ffff;
 }
 .Footer > * :hover{
     font-style: italic;
@@ -20,7 +18,7 @@
     text-align: left;
 }
 .Footer-item::selection{
-    color: #070096;
+    color: #00ffff;
 }
 .Footer-item a{
     color: #2e2e2d;

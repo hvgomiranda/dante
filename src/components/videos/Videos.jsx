@@ -6,14 +6,28 @@ const Videos = ({ Datos }) => {
 
     const {seccion} = useParams();
 
+    //film and tv series
+    const order = {
+        "film-tv-series": [6, 7, 8, 9, 11, 1, 10, 12],
+        "music-videos": [0, 3, 4, 5, 2],
+        "commercials": [14, 13, 15, 16, 17, 21, 18, 19, 20]
+    };
+    const horizontal = {
+        "film-tv-series": [8, 1],
+        "music-videos": [4],
+        "commercials": [15, 21, 20]
+    }
+
+    const Media = Datos.sort((a, b) => order[seccion].indexOf(a.id) -  order[seccion].indexOf(b.id));
+
     window.scrollTo(0,0);
 
     return(
         <div className="Videos">
-            {Datos.filter((dato) => (dato.tipo === seccion)).map((dato, index) => (
+            {Media.filter((dato) => (dato.tipo === seccion)).map((dato, index) => (
                 <HomeSection
                     key={index}
-                    Index={index}
+                    index={horizontal[`${seccion}`]}
                     Media={dato}
                 />
             ))}

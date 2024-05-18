@@ -7,7 +7,7 @@
     font-style: italic;
 }
 .Menu > * ::selection{
-    color: #070096;
+    color: #00ffff;
 }
 .Menu-item{
     font-family: "Poppins", sans-serif;

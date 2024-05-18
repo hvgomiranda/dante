@@ -9,7 +9,7 @@
     position: relative;
     text-align: center;
 }
-.HomeSection_containerLarge{
+.HomeSection__containerLarge{
     width: 87.5vw;
     height: 100vh;
     overflow: hidden;
@@ -28,6 +28,9 @@
     line-height: 0.4rem;
     color: white;
     width: 100%;
+}
+.HomeSection__text p::selection{
+    color: #00ffff;
 }
 .HomeSection__slider{
     width: 100%;

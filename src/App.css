@@ -6,20 +6,12 @@
 .Left{
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: space-between;
   position: relative;
   height: 100dvh;
-  text-justify: justify;
   top: 0;
   position: sticky;
-}
-.Left_up{
-  display: flex;
-  flex-direction: column;
-  height: 50vh;
   width: 100%;
-  justify-content: space-between;
 }
 
 @media (max-width: 768px){

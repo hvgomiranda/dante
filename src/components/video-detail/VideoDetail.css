@@ -11,5 +11,5 @@
     font-size: 1rem;
 }
 .VideoDetail__credits ::selection{
-    color: blue;
+    color: #00ffff;
 }

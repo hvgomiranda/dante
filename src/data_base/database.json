@@ -27,7 +27,7 @@
     ]
   },
   {
-    "id": 14,
+    "id": 1,
     "titulo": "Algo de Carlos\n(Web Mini series)",
     "ruta": "Algo-de-Carlos",
     "tipo": "film-tv-series",
@@ -52,7 +52,7 @@
     ]
   },
   {
-    "id": 16,
+    "id": 2,
     "titulo": "Warhol RMX\nPablo Pellegrini & Chico Rico",
     "ruta": "Pablo-Pellegrini-Chico-Rico-Warhol-RMX",
     "tipo": "music-videos",
@@ -161,7 +161,7 @@
     "ruta": "Nuestra-cosa-perdida",
     "tipo": "film-tv-series",
     "enlace": "",
-    "creditos": "Nuestra Cosa Perdida (Documentary Featured Film)\n(editing)",
+    "creditos": "Nuestra Cosa Perdida (Documentary Featured Film)\n(finished - in post production)",
     "foto": 1,
     "home": 0,
     "enlace-img": "https://www.instagram.com/nuestracosaperdida/",
@@ -199,10 +199,16 @@
     "enlace": "A9gzIiwLlCQ",
     "creditos": "Coppola, The Manager (Star+ Series)\n(additional editing - ep. 6, uncredited)",
     "foto": 1,
-    "home": 0,
+    "home": 1,
     "enlace-img": "https://www.imdb.com/title/tt15655872/",
     "imagenes": [
-      "/media/Coppola/Coppola_Still.jpeg"
+      "/media/Coppola/Coppola_Still.jpeg",
+      "/media/Coppola/Coppola_1.png",
+      "/media/Coppola/Coppola_2.png",
+      "/media/Coppola/Coppola_3.png",
+      "/media/Coppola/Coppola_4.png",
+      "/media/Coppola/Coppola_5.png"
+
     ],
     "fuentes-img": [
       "https://drive.google.com/file/d/1BinGKXdw-tEl9P62VP6SfIOW5nYSD2VN/view?usp=sharing"
@@ -305,7 +311,7 @@
     ]
   },
   {
-    "id": 2,
+    "id": 13,
     "titulo": "Quilmes IPA\n(Director's Cut)",
     "ruta": "Quilmes-IPA",
     "tipo": "commercials",
@@ -330,7 +336,7 @@
     ]
   },
   {
-    "id": 1,
+    "id": 14,
     "titulo": "Levi’s",
     "ruta": "Levis-hero-1",
     "tipo": "commercials",
@@ -361,7 +367,7 @@
     ]
   },
   {
-    "id": 13,
+    "id": 15,
     "titulo": "Nosotras\nPleasure instead of pain (Director's Cut)",
     "ruta": "Nosotras-pleasure-instead-of-pain",
     "tipo": "commercials",
@@ -386,7 +392,7 @@
     ]
   },
   {
-    "id": 24,
+    "id": 16,
     "titulo": "Almamora\nEl amor es inevitable",
     "ruta": "Almamora-el-amor-es-inevitable",
     "tipo": "commercials",
@@ -407,7 +413,7 @@
     ]
   },
   {
-    "id": 25,
+    "id": 17,
     "titulo": "Perotá Chingó\nMuta: Campodónico",
     "ruta": "Perota-Chingo-Muta-Campodonico",
     "tipo": "commercials",
@@ -432,7 +438,7 @@
     ]
   },
   {
-    "id": 26,
+    "id": 18,
     "titulo": "Perotá Chingó\nMuta: Eksperimenta I/II",
     "ruta": "Perota-Chingo-Muta-Eksperimenta",
     "tipo": "commercials",
@@ -459,7 +465,7 @@
     ]
   },
   {
-    "id": 27,
+    "id": 19,
     "titulo": "Perotá Chingó\nMuta: Retiros",
     "ruta": "Perota-Chingo-Muta-Retiros",
     "tipo": "commercials",
@@ -484,7 +490,7 @@
     ]
   },
   {
-    "id": 28,
+    "id": 20,
     "titulo": "Perotá Chingó\nEKS3 (Official Trailer)",
     "ruta": "Perota-Chingo-Muta-EKS3",
     "tipo": "commercials",
@@ -509,7 +515,7 @@
     ]
   },
   {
-    "id": 29,
+    "id": 21,
     "titulo": "Pablo Pellegrini\nLive Show",
     "ruta": "Pablo-Pellegrini-Live",
     "tipo": "commercials",

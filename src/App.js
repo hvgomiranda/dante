@@ -14,10 +14,8 @@ function App() {
   return (
     <div className="App">
       <div className='Left'>
-        <div className='Left_up'>
-          <Header />
-          <Menu />
-        </div>
+        <Header />
+        <Menu />
         <Footer />
       </div>
       <div className='Right'>

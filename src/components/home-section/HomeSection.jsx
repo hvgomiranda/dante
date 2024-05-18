@@ -6,10 +6,11 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { motion } from "framer-motion";
 
-const HomeSection = ({ Media, Index }) => {
+const HomeSection = ({ Media, index }) => {
     const [showCarousel, setShowCarousel] = useState(false);
     const [imagesLoaded, setImagesLoaded] = useState(false);
 
+    //le agregar un espacio al título en cada /n del json
     const renderTitulo = (titulo) => {
         const lineas = titulo.split('\n');
         return (
@@ -19,8 +20,16 @@ const HomeSection = ({ Media, Index }) => {
             ))}
           </div>
         );
-      };
+    };
 
+    //se fija si la imagen debe renderizarse apaisada (className HomeSection__containerLarge)
+    const check = (medio, indice) => {
+        return indice.includes(medio.id);
+    };
+
+    console.log(check(Media, index));
+
+    //setteo del carousel -> slick-carousel
     const settings = {
         infinite: true,
         autoplay: true,
@@ -32,6 +41,7 @@ const HomeSection = ({ Media, Index }) => {
         pauseOnHover: false
     };
 
+    //precarga de imágenes
     useEffect(() => {
         const preloadImages = () => {
             const imagePromises = Media.imagenes.map((photo) => {
@@ -62,7 +72,7 @@ const HomeSection = ({ Media, Index }) => {
             onMouseLeave={() => setShowCarousel(false)}
         >
             {showCarousel ? (
-                <div className={!(Index===2||Index===5) ? "HomeSection__container" : "HomeSection_containerLarge"}>
+                <div className={check(Media, index) ? "HomeSection__containerLarge" : "HomeSection__container"}>
                     <Link to={`/video/${Media.ruta}`}>
                     {imagesLoaded && (
                             <Slider {...settings} className="HomeSection__slider">
@@ -72,6 +82,7 @@ const HomeSection = ({ Media, Index }) => {
                                             className="HomeSection__image"
                                             src={ photo }
                                             alt={`${Media.titulo} - ${index+1}`}
+                                            loading="lazy"
                                         />
                                     </div>
                                 ))}
@@ -84,9 +95,9 @@ const HomeSection = ({ Media, Index }) => {
                     </Link>
                 </div>
             ) : (
-                <div className={!(Index===2||Index===5) ? "HomeSection__container" : "HomeSection_containerLarge"}>
+                <div className={check(Media, index) ? "HomeSection__containerLarge" : "HomeSection__container"}>
                     <Link to={`/${Media.titulo}`}>
-                        <div className="HomeSection_slider">
+                        <div className="HomeSection__slider">
                             <img
                                 className="HomeSection__image"
                                 src={Media.imagenes[0]}
