@@ -45,9 +45,11 @@
 
 @media (max-width: 768px){
     .HomeSection__container{
-        width: 100dvw;
+        width: 100vw;
+        height: 92dvh;
     }
-    .HomeSection_containerLarge{
-        width: 100dvw;
+    .HomeSection__containerLarge{
+        width: 100vw;
+        height: 92dvh;
     }
 }
