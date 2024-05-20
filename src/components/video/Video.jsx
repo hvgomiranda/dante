@@ -1,5 +1,4 @@
 import "./Video.css";
-import { useMediaQuery } from "react-responsive";
 
 const Video = ({ Video }) => {
 
