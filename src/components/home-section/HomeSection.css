@@ -52,4 +52,7 @@
         width: 100vw;
         height: 92dvh;
     }
+    .HomeSection__text{
+        font-size: 0.8rem;
+    }
 }

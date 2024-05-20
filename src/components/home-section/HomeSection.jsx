@@ -1,6 +1,7 @@
 import "./HomeSection.css";
 import React, { useState, useEffect } from 'react';
 import { Link } from "react-router-dom"
+import { useMediaQuery } from "react-responsive";
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -9,6 +10,8 @@ import { motion } from "framer-motion";
 const HomeSection = ({ Media, index }) => {
     const [showCarousel, setShowCarousel] = useState(false);
     const [imagesLoaded, setImagesLoaded] = useState(false);
+    const isDesktop = useMediaQuery({ minWidth: 769 });
+    const isMobile = useMediaQuery({ maxWidth: 768 });
 
     //le agregar un espacio al título en cada /n del json
     const renderTitulo = (titulo) => {
@@ -88,10 +91,11 @@ const HomeSection = ({ Media, index }) => {
                                 ))}
                             </Slider>
                         )}
-                        <div 
-                        className="HomeSection__text">
+                        {isDesktop && 
+                        <div className="HomeSection__text">
                             <p>{renderTitulo(Media.titulo)}</p>
                         </div>
+                        }
                     </Link>
                 </div>
             ) : (
@@ -104,6 +108,11 @@ const HomeSection = ({ Media, index }) => {
                                 alt={`${Media.titulo}`}
                             />
                         </div>
+                        {isMobile && 
+                        <div className="HomeSection__text">
+                            <p>{renderTitulo(Media.titulo)}</p>
+                        </div>
+                        }
                     </Link>
                 </div>
             )}
