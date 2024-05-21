@@ -101,7 +101,7 @@ const HomeSection = ({ Media, index }) => {
                     </div>
                 ) : (
                     <div className={check(Media, index) ? "HomeSection__containerLarge" : "HomeSection__container"}>
-                        <Link to={`/${Media.titulo}`}>
+                        <Link to={`/video/${Media.ruta}`}>
                             <div className="HomeSection__slider">
                                 <img
                                     className="HomeSection__image"
@@ -145,7 +145,7 @@ const HomeSection = ({ Media, index }) => {
                     </div>
                 ) : (
                     <div className={check(Media, index) ? "HomeSection__containerLarge" : "HomeSection__container"}>
-                        <Link to={`/${Media.titulo}`}>
+                        <Link to={`/video/${Media.ruta}`}>
                             <div className="HomeSection__slider">
                                 <img
                                     className="HomeSection__image"
