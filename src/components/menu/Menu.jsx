@@ -26,12 +26,11 @@ const DesktopMenu = () => (
     };
 
     return(
-        <MenuBar isOpen={menuOpen} onStateChange={handleStateChange} right className="Menu">
+        <MenuBar isOpen={menuOpen} onStateChange={handleStateChange} right className="Menu" noTransition >
             <ul  className="Menu-list">
                 <li><Link to={"/section/film-tv-series"} className="Menu-item" onClick={closeMenu}>Film / TV series</Link></li>
                 <li><Link to={"/section/music-videos"} className="Menu-item" onClick={closeMenu}>Music Videos</Link></li>
                 <li><Link to={"/section/commercials"} className="Menu-item" onClick={closeMenu}>Commercials</Link></li>
-                <span></span>
                 <li><Link to={"/contact"} className="Menu-item" onClick={closeMenu}>perinidante@gmail.com</Link></li>
             </ul>
         </MenuBar>

@@ -32,10 +32,6 @@
         display: none;
     }
 
-    .Menu-list-open {
-        display: none;
-    }
-
     /* Position and sizing of burger button */
     .bm-burger-button {
         position: fixed;
@@ -73,7 +69,7 @@
     */
     .bm-menu-wrap {
         position: fixed;
-        height: 92vh !important;
+        height: 100vh !important;
         width: 55vw !important;
         top: 0px;
     }
@@ -92,6 +88,7 @@
     /* Wrapper for item list */
     .bm-item-list {
         color: #2e2e2d;
+        padding: 8.5vh 0px 0px 10px;
     }
     
     /* Individual item */
@@ -99,10 +96,14 @@
         text-decoration: none;
         list-style-type: none;
         padding-inline-start: 0px;
+        margin: 0px !important;
     }
     
     /* Styling of overlay */
     .bm-overlay {
         background: rgba(0, 0, 0, 0.3);
+    }
+    li:last-child{
+        margin-top: 20px;
     }
 }

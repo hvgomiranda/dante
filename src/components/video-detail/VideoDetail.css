@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 5px 0px 0px 0px;
+    margin-top: 5px;
 }
 .VideoDetail__credits{
     font-family: "Poppins", sans-serif;
@@ -16,10 +16,13 @@
 
 @media (max-width: 768px){
     .VideoDetail{
-        padding: 30px 0px 0px 0px;
+        padding-top: 10vh;
     }
     .VideoDetail__credits{
         font-size: 1.1rem;
         margin: 20px;
+    }
+    .VideoDetail__credits{
+        font-size: .7rem;
     }
 }

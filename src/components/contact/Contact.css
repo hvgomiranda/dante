@@ -10,7 +10,7 @@
     align-items: center;
     width: 100%;
     justify-content: flex-end;
-    padding-top: 15vh;
+    padding-top: 10vh;
 }
 .Contact__form p::selection{
     color: #070096;
