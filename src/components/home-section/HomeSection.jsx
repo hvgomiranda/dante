@@ -86,7 +86,6 @@ const HomeSection = ({ Media, index }) => {
                                                 className="HomeSection__image"
                                                 src={ photo }
                                                 alt={`${Media.titulo} - ${index+1}`}
-                                                loading="lazy"
                                             />
                                         </div>
                                     ))}
@@ -130,7 +129,6 @@ const HomeSection = ({ Media, index }) => {
                                                 className="HomeSection__image"
                                                 src={ photo }
                                                 alt={`${Media.titulo} - ${index+1}`}
-                                                loading="lazy"
                                             />
                                         </div>
                                     ))}
