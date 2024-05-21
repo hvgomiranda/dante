@@ -65,58 +65,104 @@ const HomeSection = ({ Media, index }) => {
     }, [Media.imagenes]);
 
     return (
-        <motion.div
-            className="HomeSection"
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ duration: 0.7 }}
-            viewport={{ amount: 0.05 }}
-            onMouseEnter={() => setShowCarousel(true)}
-            onMouseLeave={() => setShowCarousel(false)}
-        >
-            {showCarousel ? (
-                <div className={check(Media, index) ? "HomeSection__containerLarge" : "HomeSection__container"}>
-                    <Link to={`/video/${Media.ruta}`}>
-                    {imagesLoaded && (
-                            <Slider {...settings} className="HomeSection__slider">
-                                {Media.imagenes.map((photo, index) => (
-                                    <div key={ index }>
-                                        <img
-                                            className="HomeSection__image"
-                                            src={ photo }
-                                            alt={`${Media.titulo} - ${index+1}`}
-                                            loading="lazy"
-                                        />
-                                    </div>
-                                ))}
-                            </Slider>
-                        )}
-                        {isDesktop && 
-                        <div className="HomeSection__text">
-                            <p>{renderTitulo(Media.titulo)}</p>
-                        </div>
-                        }
-                    </Link>
-                </div>
-            ) : (
-                <div className={check(Media, index) ? "HomeSection__containerLarge" : "HomeSection__container"}>
-                    <Link to={`/${Media.titulo}`}>
-                        <div className="HomeSection__slider">
-                            <img
-                                className="HomeSection__image"
-                                src={Media.imagenes[0]}
-                                alt={`${Media.titulo}`}
-                            />
-                        </div>
-                        {isMobile && 
-                        <div className="HomeSection__text">
-                            <p>{renderTitulo(Media.titulo)}</p>
-                        </div>
-                        }
-                    </Link>
-                </div>
-            )}
-        </motion.div>
+        <div>
+            {isDesktop && <motion.div
+                className="HomeSection"
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                transition={{ duration: 0.7 }}
+                viewport={{ amount: 0.05 }}
+                onMouseEnter={() => setShowCarousel(true)}
+                onMouseLeave={() => setShowCarousel(false)}
+            >
+                {showCarousel ? (
+                    <div className={check(Media, index) ? "HomeSection__containerLarge" : "HomeSection__container"}>
+                        <Link to={`/video/${Media.ruta}`}>
+                        {imagesLoaded && (
+                                <Slider {...settings} className="HomeSection__slider">
+                                    {Media.imagenes.map((photo, index) => (
+                                        <div key={ index }>
+                                            <img
+                                                className="HomeSection__image"
+                                                src={ photo }
+                                                alt={`${Media.titulo} - ${index+1}`}
+                                                loading="lazy"
+                                            />
+                                        </div>
+                                    ))}
+                                </Slider>
+                            )}
+                            {isDesktop && 
+                            <div className="HomeSection__text">
+                                <p>{renderTitulo(Media.titulo)}</p>
+                            </div>
+                            }
+                        </Link>
+                    </div>
+                ) : (
+                    <div className={check(Media, index) ? "HomeSection__containerLarge" : "HomeSection__container"}>
+                        <Link to={`/${Media.titulo}`}>
+                            <div className="HomeSection__slider">
+                                <img
+                                    className="HomeSection__image"
+                                    src={Media.imagenes[0]}
+                                    alt={`${Media.titulo}`}
+                                />
+                            </div>
+                            {isMobile && 
+                            <div className="HomeSection__text">
+                                <p>{renderTitulo(Media.titulo)}</p>
+                            </div>
+                            }
+                        </Link>
+                    </div>
+                )}
+            </motion.div>}
+            {isMobile && <div className="HomeSection">
+                {showCarousel ? (
+                    <div className={check(Media, index) ? "HomeSection__containerLarge" : "HomeSection__container"}>
+                        <Link to={`/video/${Media.ruta}`}>
+                        {imagesLoaded && (
+                                <Slider {...settings} className="HomeSection__slider">
+                                    {Media.imagenes.map((photo, index) => (
+                                        <div key={ index }>
+                                            <img
+                                                className="HomeSection__image"
+                                                src={ photo }
+                                                alt={`${Media.titulo} - ${index+1}`}
+                                                loading="lazy"
+                                            />
+                                        </div>
+                                    ))}
+                                </Slider>
+                            )}
+                            {isDesktop && 
+                            <div className="HomeSection__text">
+                                <p>{renderTitulo(Media.titulo)}</p>
+                            </div>
+                            }
+                        </Link>
+                    </div>
+                ) : (
+                    <div className={check(Media, index) ? "HomeSection__containerLarge" : "HomeSection__container"}>
+                        <Link to={`/${Media.titulo}`}>
+                            <div className="HomeSection__slider">
+                                <img
+                                    className="HomeSection__image"
+                                    src={Media.imagenes[0]}
+                                    alt={`${Media.titulo}`}
+                                />
+                            </div>
+                            {isMobile && 
+                            <div className="HomeSection__text">
+                                <p>{renderTitulo(Media.titulo)}</p>
+                            </div>
+                            }
+                        </Link>
+                    </div>
+                )}
+            </div>}
+        </div>
     );
 };
 
