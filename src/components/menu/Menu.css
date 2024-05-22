@@ -49,7 +49,7 @@
     }
     
     .bm-cross-button {
-        width: 25px;
+        width: 25   px;
         height: 15px;
         right: 10px;
         top: 10px;
@@ -153,10 +153,12 @@
     }
 
 }
-@media (max-width: 375px){
+@media (max-width: 450px){
     .bm-burger-bars {
         margin-top: 1vh;
     }
+}
+@media (max-width: 375px){
     .bm-item-list {
         padding: 8.5vh 0px 0px 0px;
     }
