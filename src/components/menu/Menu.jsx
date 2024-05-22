@@ -39,11 +39,11 @@ const DesktopMenu = () => (
             </ul>
             <div className="Menu__footer">
                 <p className="Menu__footer-item">Based in Buenos Aires</p>
-                <p className="Menu__footer-item"><Link to={"/contact"}>perinidante@gmail.com</Link></p>
+                <p className="Menu__footer-item"><Link to={"/contact"} onClick={closeMenu}>perinidante@gmail.com</Link></p>
                 <ul className="Menu__footer-item-list">
-                    <li><a href="https://www.imdb.com/name/nm13629021/" target="_blank" rel="noreferrer">IMDB</a></li>
-                    <li><a href="https://www.instagram.com/danteperini/" target="_blank" rel="noreferrer">IG</a></li>
-                    <li><a href="https://www.linkedin.com/in/perinidante/" target="_blank" rel="noreferrer">LinkedIn</a></li>
+                    <li><a href="https://www.imdb.com/name/nm13629021/" target="_blank" rel="noreferrer" onClick={closeMenu}>IMDB</a></li>
+                    <li><a href="https://www.instagram.com/danteperini/" target="_blank" rel="noreferrer" onClick={closeMenu}>IG</a></li>
+                    <li><a href="https://www.linkedin.com/in/perinidante/" target="_blank" rel="noreferrer" onClick={closeMenu}>LinkedIn</a></li>
                 </ul>
             </div>
         </MenuBar>
