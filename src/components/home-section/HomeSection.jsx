@@ -122,7 +122,7 @@ const HomeSection = ({ Media, index }) => {
                 className="HomeSection"
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
-                transition={{ duration: 0.25 }}
+                transition={{ duration: 0.1 }}
                 viewport={{ amount: 0.01 }}
                 onMouseEnter={() => setShowCarousel(true)}
                 onMouseLeave={() => setShowCarousel(false)}>

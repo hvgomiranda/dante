@@ -19,9 +19,7 @@
     }
 }
 @media (max-width: 768px){
-    .VideoDetail{
-        
-    }
+
     .VideoDetail__credits{
         font-size: 1.1rem;
         margin: 20px;
