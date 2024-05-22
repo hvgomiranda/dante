@@ -32,7 +32,6 @@
         display: none;
     }
 
-    /* Position and sizing of burger button */
     .bm-burger-button {
         position: fixed;
         width: 25px;
@@ -41,16 +40,14 @@
         top: 15px;
     }
     
-    /* Color/shape of burger icon bars */
     .bm-burger-bars {
         background: #2e2e2d;
     }
-    /* Color/shape of burger icon bars on hover*/
+
     .bm-burger-bars-hover {
         background: #2e2e2d;
     }
     
-    /* Position and sizing of clickable cross button */
     .bm-cross-button {
         width: 25px;
         height: 15px;
@@ -58,55 +55,47 @@
         top: 10px;
     }
     
-    /* Color/shape of close button cross */
     .bm-cross {
         background: #2e2e2d;
     }
     
-    /*
-    Sidebar wrapper styles
-    Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
-    */
     .bm-menu-wrap {
         position: fixed;
         height: 100vh !important;
+        max-width: 250px;
         width: 55vw !important;
-        top: 0px;
+        top: 0;
     }
     
-    /* General sidebar styles */
     .bm-menu {
         background: white;
         font-size: 1.15em;
         overflow-y: hidden !important; 
     }
     
-    /* Morph shape necessary with bubble or elastic */
     .bm-morph-shape {
         fill: #2e2e2d;
     }
     
-    /* Wrapper for item list */
     .bm-item-list {
         color: #2e2e2d;
         padding: 8.5vh 0px 0px 10px;
+        height: 100%;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: space-between !important;
     }
-    
-    /* Individual item */
+
     .bm-item {
         text-decoration: none;
         list-style-type: none;
         padding-inline-start: 0px;
         margin: 0px !important;
     }
-    
-    /* Styling of overlay */
+
     .bm-overlay {
         background: rgba(0, 0, 0, 0.3);
     }
-    li:last-child{
-        margin-top: 20px;
-    }     
     .Menu__open {
         transition: opacity 0.4s ease-in-out;
         opacity: 1;
@@ -115,9 +104,60 @@
     .Menu__closed {
         opacity: 0;
     }
+
+    .Menu__footer{
+        width: 100%;
+        padding-left: 10px;
+        padding-bottom: 10vh;
+    }
+    
+    .Menu__footer > * ::selection{
+        color: #00ffff;
+    }
+    .Menu__footer > * :hover{
+        font-style: italic;
+    }
+    .Menu__footer-item{
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 0.85rem;
+        line-height: 0.4rem;
+        text-align: left;
+    }
+    .Menu__footer-item::selection{
+        color: #00ffff;
+    }
+    .Menu__footer-item a{
+        color: #2e2e2d;
+        text-decoration: none;
+    }
+    
+    .Menu__footer-item-list{
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 0.85rem;
+        list-style-type: none;
+        padding-inline-start: 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        line-height: 0.4rem;
+    }
+    .Menu__footer-item-list a{
+        color: #2e2e2d;
+        text-decoration: none;
+        font-size: 0.85rem;
+        padding-right: 15px;
+    }
+
 }
 @media (max-width: 375px){
     .bm-burger-bars {
         margin-top: 1vh;
+    }
+    .bm-item-list {
+        padding: 8.5vh 0px 0px 0px;
     }
 }

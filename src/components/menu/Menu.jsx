@@ -36,8 +36,16 @@ const DesktopMenu = () => (
                 <li><Link to={"/section/film-tv-series"} className="Menu-item" onClick={closeMenu}>Film / TV series</Link></li>
                 <li><Link to={"/section/music-videos"} className="Menu-item" onClick={closeMenu}>Music Videos</Link></li>
                 <li><Link to={"/section/commercials"} className="Menu-item" onClick={closeMenu}>Commercials</Link></li>
-                <li><Link to={"/contact"} className="Menu-item" onClick={closeMenu}>perinidante@gmail.com</Link></li>
             </ul>
+            <div className="Menu__footer">
+                <p className="Menu__footer-item">Based in Buenos Aires</p>
+                <p className="Menu__footer-item"><Link to={"/contact"}>perinidante@gmail.com</Link></p>
+                <ul className="Menu__footer-item-list">
+                    <li><a href="https://www.imdb.com/name/nm13629021/" target="_blank" rel="noreferrer">IMDB</a></li>
+                    <li><a href="https://www.instagram.com/danteperini/" target="_blank" rel="noreferrer">IG</a></li>
+                    <li><a href="https://www.linkedin.com/in/perinidante/" target="_blank" rel="noreferrer">LinkedIn</a></li>
+                </ul>
+            </div>
         </MenuBar>
     )
   };
