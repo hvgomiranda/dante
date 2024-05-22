@@ -95,6 +95,10 @@ input[type=submit]:hover{
 
 @media (max-width: 768px) {
 
+    .Contact__form{
+        padding-top: 5vh;
+    }
+
     .Contact__form p{
         font-family: "Poppins", sans-serif;
         font-weight: 400;
@@ -104,11 +108,13 @@ input[type=submit]:hover{
     .Contact__form input{
         margin: 5px 5px;
         width: 70%;
+        border-radius: 0px;
 
     }
     .Contact__form textarea{
         width: 70%;
         margin: 5px 0px;
+        border-radius: 0px;
     }
     input[type=submit]{
         width: 40%;
@@ -116,6 +122,7 @@ input[type=submit]:hover{
         cursor: pointer;
         border: #2e2e2d 1px solid;
         background-color: white;
+        border-radius: 0px;
     }
 
 }
