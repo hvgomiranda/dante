@@ -78,6 +78,7 @@
     .bm-menu {
         background: white;
         font-size: 1.15em;
+        overflow-y: hidden !important; 
     }
     
     /* Morph shape necessary with bubble or elastic */
@@ -105,5 +106,18 @@
     }
     li:last-child{
         margin-top: 20px;
+    }     
+    .Menu__open {
+        transition: opacity 0.4s ease-in-out;
+        opacity: 1;
+    }
+
+    .Menu__closed {
+        opacity: 0;
+    }
+}
+@media (max-width: 375px){
+    .bm-burger-bars {
+        margin-top: 1vh;
     }
 }

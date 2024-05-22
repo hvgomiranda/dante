@@ -13,16 +13,20 @@
 .VideoDetail__credits ::selection{
     color: #00ffff;
 }
-
+@media (max-width: 1024px){
+    .VideoDetail{
+        margin-top: 10vh;
+    }
+}
 @media (max-width: 768px){
     .VideoDetail{
-        padding-top: 10vh;
+        
     }
     .VideoDetail__credits{
         font-size: 1.1rem;
         margin: 20px;
     }
     .VideoDetail__credits{
-        font-size: .7rem;
+        font-size: .9rem;
     }
 }

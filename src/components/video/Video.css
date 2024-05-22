@@ -2,6 +2,12 @@
     width: 1120px;
     height: 630px;
 }
+@media (max-width: 1024px){
+    .Video{
+        width: 840px;
+        height: 472.5px;
+    }
+}
 @media (max-width: 768px){
     .Video{
         width: 80vw;

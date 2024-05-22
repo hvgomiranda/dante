@@ -26,7 +26,12 @@ const DesktopMenu = () => (
     };
 
     return(
-        <MenuBar isOpen={menuOpen} onStateChange={handleStateChange} right className="Menu" noTransition >
+        <MenuBar 
+        isOpen={menuOpen}
+        onStateChange={handleStateChange}
+        right
+        noTransition
+        className={`Menu ${menuOpen ? 'Menu__open' : 'Menu__closed'}`}>
             <ul  className="Menu-list">
                 <li><Link to={"/section/film-tv-series"} className="Menu-item" onClick={closeMenu}>Film / TV series</Link></li>
                 <li><Link to={"/section/music-videos"} className="Menu-item" onClick={closeMenu}>Music Videos</Link></li>

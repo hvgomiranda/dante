@@ -118,7 +118,14 @@ const HomeSection = ({ Media, index }) => {
                     </div>
                 )}
             </motion.div>}
-            {isMobile && <div className="HomeSection">
+            {isMobile && <motion.div
+                className="HomeSection"
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                transition={{ duration: 0.25 }}
+                viewport={{ amount: 0.01 }}
+                onMouseEnter={() => setShowCarousel(true)}
+                onMouseLeave={() => setShowCarousel(false)}>
                 {showCarousel ? (
                     <div className={check(Media, index) ? "HomeSection__containerLarge" : "HomeSection__container"}>
                         <Link to={`/video/${Media.ruta}`}>
@@ -161,7 +168,7 @@ const HomeSection = ({ Media, index }) => {
                         </Link>
                     </div>
                 )}
-            </div>}
+            </motion.div>}
         </div>
     );
 };
