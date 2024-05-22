@@ -120,7 +120,7 @@ const HomeSection = ({ Media, index }) => {
             </motion.div>}
             {isMobile && <motion.div
                 className="HomeSection"
-                initial={{ opacity: 0 }}
+                initial={{ opacity: 0.2 }}
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 0.1 }}
                 viewport={{ amount: 0.01 }}
