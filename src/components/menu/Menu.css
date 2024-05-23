@@ -31,7 +31,9 @@
     .Menu-list {
         display: none;
     }
-
+    .Menu-list li{
+        margin-bottom: 3px;
+    }
     .bm-burger-button {
         position: fixed;
         width: 25px;
@@ -108,9 +110,11 @@
     .Menu__footer{
         width: 100%;
         padding-left: 10px;
-        padding-bottom: 10vh;
+        padding-bottom: 10.5vh;
     }
-    
+    .Menu__footer p{
+        margin-bottom: 15px;
+    }
     .Menu__footer > * ::selection{
         color: #00ffff;
     }

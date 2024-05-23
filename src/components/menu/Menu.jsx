@@ -14,17 +14,18 @@ const DesktopMenu = () => (
     </nav>
   );
   
-  const MobileMenu = () => {
-    const [menuOpen, setMenuOpen] = useState(false);
-
+const MobileMenu = () => {
+    
+    const [menuOpen, setMenuOpen] = useState(false); 
+    
     const handleStateChange = (state) => {
         setMenuOpen(state.isOpen);
     };
-
+    
     const closeMenu = () => {
         setMenuOpen(false);
     };
-
+    
     return(
         <MenuBar 
         isOpen={menuOpen}
@@ -48,7 +49,7 @@ const DesktopMenu = () => (
             </div>
         </MenuBar>
     )
-  };
+};
 
 const Menu = () => {
 
