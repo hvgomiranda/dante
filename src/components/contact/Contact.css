@@ -13,7 +13,7 @@
     padding-top: 10vh;
 }
 .Contact__form p::selection{
-    color: #070096;
+    color: #00ffff;
 }
 .Contact__form p{
     font-family: "Poppins", sans-serif;
@@ -84,7 +84,7 @@ input[type=submit]:hover{
     color: #2e2e2d;
 }
 .Contact__thanks::selection{
-    color:#070096;
+    color:#00ffff;
 }
 
 @media (max-width: 1000px){
