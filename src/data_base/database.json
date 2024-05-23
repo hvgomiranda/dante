@@ -5,9 +5,10 @@
     "ruta": "Dante-Spinetta-Trueno-Sudaka",
     "tipo": "music-videos",
     "enlace": "H4fYajSj0RU",
-    "creditos": "Dante Spinetta, Trueno - Sudaka (Official Video)\nDir.: Hernán Corera & Juan Piczman\nby Mamá Húngara",
+    "creditos": "Dante Spinetta, Trueno - Sudaka (Official Video)\nDir.: Hernán Corera & Juan Piczman, by Mamá Húngara",
     "foto": 0,
     "home": 1,
+    "playlist": "",
     "enlace-img": "",
     "imagenes": [
       "/media/Sudaka/Sudaka_5.jpg",
@@ -35,6 +36,7 @@
     "creditos": "Algo de Carlos (Mini Series)\nDir.: Santiago Korovsky",
     "foto": 1,
     "home": 1,
+    "playlist": "PLJk7E_reFUL4pcDpGi-GyNBoDTgk2uRk0",
     "enlace-img": "https://www.youtube.com/playlist?list=PLJk7E_reFUL4pcDpGi-GyNBoDTgk2uRk0",
     "imagenes": [
       "/media/AlgoDeCarlos/AlgoDeCarlos_1.jpg",
@@ -60,6 +62,7 @@
     "creditos": "Pablo Pellegrini & Chico Rico - Warhol RMX (Official Video)",
     "foto": 0,
     "home": 1,
+    "playlist": "",
     "enlace-img": "",
     "imagenes": [
       "/media/WarholRMX/WarholRMX_1.jpg",
@@ -87,6 +90,7 @@
     "creditos": "Pablo Pellegrini - Soplo (Official Video)",
     "foto": 0,
     "home": 0,
+    "playlist": "",
     "enlace-img": "",
     "imagenes": [
       "/media/Soplo/Soplo_1.jpg",
@@ -112,6 +116,7 @@
     "creditos": "Carolina del Carmen Peleritti - Zamba del renacer (Official Video)",
     "foto": 0,
     "home": 0,
+    "playlist": "",
     "enlace-img": "",
     "imagenes": [
       "/media/Peleritti1/Peleritti1_1.jpg",
@@ -137,6 +142,7 @@
     "creditos": "Carolina del Carmen Peleritti - Coplas para la luna (Official Video)",
     "foto": 0,
     "home": 0,
+    "playlist": "",
     "enlace-img": "",
     "imagenes": [
       "/media/Peleritti2/Peleritti2_1.jpg",
@@ -164,6 +170,7 @@
     "creditos": "Nuestra Cosa Perdida (Documentary Featured Film)\n(finished - in post production)",
     "foto": 1,
     "home": 0,
+    "playlist": "",
     "enlace-img": "https://www.instagram.com/nuestracosaperdida/",
     "imagenes": [
       "/media/NuestraCosaPerdida/NCP_Still_V01.jpg"
@@ -181,6 +188,7 @@
     "creditos": "Menem - (Amazon Prime Video Series)\n(finished - in post production)",
     "foto": 1,
     "home": 0,
+    "playlist": "",
     "enlace-img": "",
     "imagenes": [
       "/media/Menem/Menem_1.png",
@@ -200,6 +208,7 @@
     "creditos": "Coppola, The Manager (Star+ Series)\n(additional editing - ep. 6, uncredited)",
     "foto": 1,
     "home": 1,
+    "playlist": "",
     "enlace-img": "https://www.imdb.com/title/tt15655872/",
     "imagenes": [
       "/media/Coppola/Coppola_still.jpg",
@@ -223,6 +232,7 @@
     "creditos": "Misión Peluche (Short Film)\nSeleccionado BAFICI 2024",
     "foto": 0,
     "home": 0,
+    "playlist": "",
     "enlace-img": "",
     "imagenes": [
       "/media/MisionPeluche/MisionPeluche_1.jpg",
@@ -248,6 +258,7 @@
     "creditos": "Una de tantas (Short Film)\nCinéma de Femmes Sélection Officielle 2024\nFestival REC Selección Oficial 2023",
     "foto": 0,
     "home": 0,
+    "playlist": "",
     "enlace-img": "",
     "imagenes": [
       "/media/UnaDeTantas/UnaDeTantas_1.jpg",
@@ -269,6 +280,7 @@
     "creditos": "Transeúnte (Documentary Short Film)\nCinéma de Femmes Sélection Officielle 2024",
     "foto": 0,
     "home": 0,
+    "playlist": "",
     "enlace-img": "",
     "imagenes": [
       "/media/Transeunte/Transeunte_1.jpg",
@@ -294,6 +306,7 @@
     "creditos": "El silencio de las flores (Documentary Short Film)",
     "foto": 0,
     "home": 0,
+    "playlist": "",
     "enlace-img": "",
     "imagenes": [
       "/media/ElSilencioDeLasFlores/ElSilencioDeLasFlores_1.jpg",
@@ -316,9 +329,10 @@
     "ruta": "Quilmes-IPA",
     "tipo": "commercials",
     "enlace": "8UsNtUbLbnQ",
-    "creditos": "Quilmes IPA (Director's Cut)\nDir.: Hernán Corera & Juan Piczman\nby argentinacine",
+    "creditos": "Quilmes IPA (Director's Cut)\nDir.: Hernán Corera & Juan Piczman, by argentinacine",
     "foto": 0,
     "home": 1,
+    "playlist": "",
     "enlace-img": "",
     "imagenes": [
       "/media/Quilmes/QuilmesIPA_1.jpg",
@@ -341,9 +355,10 @@
     "ruta": "Levis-hero-1",
     "tipo": "commercials",
     "enlace": "AZprH9hCcPY",
-    "creditos": "Levi’s (Hero I)\nDir.: Manu Aguer & Matías Petric\nby Pantera & Co.",
+    "creditos": "Levi’s (Hero I)\nDir.: Manu Aguer & Matías Petric, by Pantera & Co.",
     "foto": 0,
     "home": 1,
+    "playlist": "PLJk7E_reFUL6XxFijSbYS0mp2Eu5Nlto6",
     "enlace-img": "",
     "imagenes": [
       "/media/Levis/Levis_1.jpg",
@@ -372,9 +387,10 @@
     "ruta": "Nosotras-pleasure-instead-of-pain",
     "tipo": "commercials",
     "enlace": "C_dJXPuvZhg",
-    "creditos": "Nosotras - Pleasure instead of pain (Director's Cut)\nDir.: Hernán Corera & Inés Villanueva\nby argentinacine",
+    "creditos": "Nosotras - Pleasure instead of pain (Director's Cut)\nDir.: Hernán Corera & Inés Villanueva, by argentinacine",
     "foto": 0,
     "home": 1,
+    "playlist": "",
     "enlace-img": "",
     "imagenes": [
       "/media/Nosotras/Nosotras_1.jpg",
@@ -400,6 +416,7 @@
     "creditos": "Almamora - El amor es inevitable (Redux)",
     "foto": 0,
     "home": 1,
+    "playlist": "",
     "enlace-img": "",
     "imagenes": [
       "/media/Almamora/Almamora_1.png",
@@ -421,6 +438,7 @@
     "creditos": "Perotá Chingó - Muta: Campodónico",
     "foto": 0,
     "home": 1,
+    "playlist": "",
     "enlace-img": "",
     "imagenes": [
       "/media/Muta/Muta_5.png",
@@ -446,6 +464,7 @@
     "creditos": "Perotá Chingó - Muta: Eksperimenta I/II",
     "foto": 0,
     "home": 0,
+    "playlist": "",
     "enlace-img": "",
     "imagenes": [
       "/media/Muta2/Muta21.png",
@@ -473,6 +492,7 @@
     "creditos": "Perotá Chingó - Muta: Retiros",
     "foto": 0,
     "home": 0,
+    "playlist": "",
     "enlace-img": "",
     "imagenes": [
       "/media/Muta3/Muta31.png",
@@ -498,6 +518,7 @@
     "creditos": "Perotá Chingó - EKS3 (Official Trailer)",
     "foto": 0,
     "home": 0,
+    "playlist": "",
     "enlace-img": "",
     "imagenes": [
       "/media/EKS3/EKS3_1.jpg",
@@ -523,6 +544,7 @@
     "creditos": "Pablo Pellegrini - Live Show",
     "foto": 0,
     "home": 0,
+    "playlist": "",
     "enlace-img": "",
     "imagenes": [
       "/media/PabloPellegriniLive/PabloPellegriniLive_1.jpg",

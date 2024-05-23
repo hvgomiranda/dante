@@ -14,7 +14,7 @@ const HomeSection = ({ Media, index }) => {
     const isMobile = useMediaQuery({ maxWidth: 768 });
 
     //le agregar un espacio al título en cada /n del json
-    const renderTitulo = (titulo) => {
+    const renderTitle = (titulo) => {
         const lineas = titulo.split('\n');
         return (
           <div>
@@ -94,7 +94,7 @@ const HomeSection = ({ Media, index }) => {
                             )}
                             {isDesktop && 
                             <div className="HomeSection__text">
-                                <p>{renderTitulo(Media.titulo)}</p>
+                                <p>{renderTitle(Media.titulo)}</p>
                             </div>
                             }
                         </Link>
@@ -111,7 +111,7 @@ const HomeSection = ({ Media, index }) => {
                             </div>
                             {isMobile && 
                             <div className="HomeSection__text">
-                                <p>{renderTitulo(Media.titulo)}</p>
+                                <p>{renderTitle(Media.titulo)}</p>
                             </div>
                             }
                         </Link>
@@ -138,7 +138,7 @@ const HomeSection = ({ Media, index }) => {
                             )}
                             {isDesktop && 
                             <div className="HomeSection__text">
-                                <p>{renderTitulo(Media.titulo)}</p>
+                                <p>{renderTitle(Media.titulo)}</p>
                             </div>
                             }
                         </Link>
@@ -155,7 +155,7 @@ const HomeSection = ({ Media, index }) => {
                             </div>
                             {isMobile && 
                             <div className="HomeSection__text">
-                                <p>{renderTitulo(Media.titulo)}</p>
+                                <p>{renderTitle(Media.titulo)}</p>
                             </div>
                             }
                         </Link>

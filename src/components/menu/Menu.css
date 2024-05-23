@@ -73,6 +73,7 @@
         background: white;
         font-size: 1.15em;
         overflow-y: hidden !important; 
+        overflow-x: hidden !important; 
     }
     
     .bm-morph-shape {

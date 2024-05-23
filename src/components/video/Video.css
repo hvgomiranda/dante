@@ -1,6 +1,6 @@
 .Video{
-    width: 1120px;
-    height: 630px;
+    width: 896px;
+    height: 504px;
 }
 @media (max-width: 1024px){
     .Video{

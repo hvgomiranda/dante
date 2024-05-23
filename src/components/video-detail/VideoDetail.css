@@ -2,29 +2,44 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 5px;
+    margin-top: 8vh;
 }
 .VideoDetail__credits{
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 1rem;
+    line-height: 0.5rem;
+    text-align: center;
 }
 .VideoDetail__credits ::selection{
     color: #00ffff;
+}
+.VideoDetail__credits a{
+    color: #2e2e2d;
+    text-decoration: none;
+}
+.VideoDetail__image{
+    width: 896px;
+    height: 504px;
 }
 @media (max-width: 1024px){
     .VideoDetail{
         margin-top: 10vh;
     }
+    .VideoDetail__image{
+        width: 840px;
+        height: 472.5px;
+    }
 }
 @media (max-width: 768px){
-
-    .VideoDetail__credits{
-        font-size: 1.1rem;
-        margin: 20px;
+    .Video__image{
+        width: 80vw;
+        height: 45vh;
     }
     .VideoDetail__credits{
-        font-size: .9rem;
+        font-size: 0.9rem;
+        margin: 20px;
+        line-height: 1rem;
     }
 }
