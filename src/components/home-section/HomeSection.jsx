@@ -30,8 +30,6 @@ const HomeSection = ({ Media, index }) => {
         return indice.includes(medio.id);
     };
 
-    console.log(check(Media, index));
-
     //setteo del carousel -> slick-carousel
     const settings = {
         infinite: true,
