@@ -1,26 +1,22 @@
-const SitemapGenerator = require('sitemap-generator');
+const { SitemapStream, streamToPromise } = require('sitemap');
+const { createWriteStream } = require('fs');
 
-const generator = SitemapGenerator('https://perinidante.com.ar/', {
-  stripQuerystring: false,
-  filepath: './public/sitemap.xml', 
-  maxEntriesPerFile: 50000,
-  lastMod: true,
-  url: [
-    { url: '/', changefreq: 'monthly', priority: 1.0 },
-    { url: '/contact', changefreq: 'monthly', priority: 0.9 },
-    { url: '/about', changefreq: 'monthly', priority: 0.8 },
-    { url: '/section/film-tv-series', changefreq: 'monthly', priority: 0.7 },
-    { url: '/section/music-videos', changefreq: 'monthly', priority: 0.7 },
-    { url: '/section/commercials', changefreq: 'monthly', priority: 0.7 }
-  ]
-});
+// Crear el stream del sitemap
+const sitemap = new SitemapStream({ hostname: 'https://perinidante.com.ar/' });
 
-generator.start();
+// Añadir las rutas manualmente
+sitemap.write({ url: '/', changefreq: 'monthly', priority: 1.0 });
+sitemap.write({ url: '/contact', changefreq: 'monthly', priority: 0.9 });
+sitemap.write({ url: '/about', changefreq: 'monthly', priority: 0.8 });
+sitemap.write({ url: '/section/film-tv-series', changefreq: 'monthly', priority: 0.7 });
+sitemap.write({ url: '/section/music-videos', changefreq: 'monthly', priority: 0.7 });
+sitemap.write({ url: '/section/commercials', changefreq: 'monthly', priority: 0.7 });
 
-generator.on('done', () => {
-  console.log('Sitemap generado exitosamente!');
-});
+// Terminar de escribir el sitemap
+sitemap.end();
 
-generator.on('error', (error) => {
-  console.log(`Error generando el sitemap: ${error}`);
-});
+// Escribir el archivo sitemap.xml
+streamToPromise(sitemap)
+  .then((data) => createWriteStream('./public/sitemap.xml').write(data))
+  .then(() => console.log('Sitemap generado exitosamente!'))
+  .catch((err) => console.error(`Error generando el sitemap: ${err}`));
