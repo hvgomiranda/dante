@@ -37,19 +37,35 @@ const VideoDetail = ({ Datos }) => {
         );
     };
 
+    const isVertical = (src) => {
+    const img = new Image();
+    img.src = src;
+    return img.naturalHeight > img.naturalWidth;
+    };
+
     return(
         <div className="VideoDetail">
-            {videoFound.enlace ?
-            <Video
-                key={videoFound.id}
-                Video={videoFound}
-            /> : 
-            <img
-                className="VideoDetail__image"
-                src={videoFound.imagenes[0]}
-                alt={`${videoFound.titulo} - ${videoFound.id+1}`}
-                loading="lazy"
-            />}
+            {videoFound.enlace ? (
+                <Video key={videoFound.id} Video={videoFound}/>
+            ) : videoFound["enlace-img"] ? (
+                <a href={videoFound["enlace-img"]} target="_blank" rel="noreferrer">
+                    <img
+                        className={`VideoDetail__image ${isVertical(videoFound.imagenes[0]) ? "vertical" : ""}`}
+                        src={videoFound.imagenes[0]}
+                        alt={`${videoFound.titulo} - ${videoFound.id+1}`}
+                        loading="lazy"
+                    />
+                </a>
+            ) : (
+                
+                <img
+                    className={`VideoDetail__image ${isVertical(videoFound.imagenes[0]) ? "vertical" : ""}`}
+                    src={videoFound.imagenes[0]}
+                    alt={`${videoFound.titulo} - ${videoFound.id+1}`}
+                    loading="lazy"
+                />
+            )}
+
             <div className="VideoDetail__credits">
                 <p>{ renderTitle(videoFound.creditos) }</p>
                 <p>{ videoFound.playlist && 

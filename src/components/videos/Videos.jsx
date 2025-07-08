@@ -10,13 +10,13 @@ const Videos = ({ Datos }) => {
     const order = {
         "film-tv-series": [6, 7, 8, 9, 11, 1, 10, 12],
         "music-videos": [0, 3, 4, 5, 2],
-        "commercials": [14, 13, 15, 16, 17, 21, 18, 19, 20]
+        "commercials": [14, 13, 15, 16, 17, 21, 18, 19, 20, 21, 22, 23]
     };
     const horizontal = {
         "film-tv-series": [8, 1],
         "music-videos": [4],
         "commercials": [15, 21, 20]
-    }
+    };
 
     const Media = Datos.sort((a, b) => order[seccion].indexOf(a.id) -  order[seccion].indexOf(b.id));
 

@@ -167,16 +167,24 @@
     "ruta": "Nuestra-cosa-perdida",
     "tipo": "film-tv-series",
     "enlace": "",
-    "creditos": "Nuestra Cosa Perdida (Documentary Featured Film)\n(finished - in post production)",
-    "foto": 1,
-    "home": 0,
+    "creditos": "Nuestra Cosa Perdida (Documentary Featured Film)\nDir.: Martina Cruz\nProd.: Sarah Fernandez Oks\nMiriam Producciones",
+    "foto": 0,
+    "home": 1,
     "playlist": "",
     "enlace-img": "https://www.instagram.com/nuestracosaperdida/",
     "imagenes": [
-      "/media/NuestraCosaPerdida/NCP_Still_V01.jpg"
+      "/media/NuestraCosaPerdida/NCP_1.png",
+      "/media/NuestraCosaPerdida/NCP_2.png",
+      "/media/NuestraCosaPerdida/NCP_3.png",
+      "/media/NuestraCosaPerdida/NCP_4.png",
+      "/media/NuestraCosaPerdida/NCP_5.png"
     ],
     "fuentes-img": [
-      "https://drive.google.com/file/d/1RTwul-yjnhmTwYmbuFuLFvQVC_gQ5Aao/view?usp=sharing"
+      "https://drive.google.com/file/d/1IMtWKIFOrgkJ3-QSu2rmjYTAxgdYDqCg/view",
+      "https://drive.google.com/file/d/1GCWcBTsryfsV0H44nYHFkFDF2xnx_EjW/view",
+      "https://drive.google.com/file/d/1FTtF91BHsTAoJg9BPqMX4RWOpgKg4buF/view",
+      "https://drive.google.com/file/d/1T-bG43m5XuuZhF-WJmb5nv5IkKNKkV7J/view",
+      "https://drive.google.com/file/d/1xrWG73ZwZcn69AAu2G6FS3RgITrLqiGZ/view"
     ]
   },
   {
@@ -185,9 +193,9 @@
     "ruta": "Menem",
     "tipo": "film-tv-series",
     "enlace": "",
-    "creditos": "Menem - (Amazon Prime Video Series)\n(finished - in post production)",
+    "creditos": "Menem - (Amazon Prime Video Series)",
     "foto": 1,
-    "home": 0,
+    "home": 1,
     "playlist": "",
     "enlace-img": "",
     "imagenes": [
@@ -557,6 +565,56 @@
       "https://drive.google.com/file/d/1DaFem-7bxO3mMVl_D1DtNQXYGsVNMRVU/view?usp=drive_link",
       "https://drive.google.com/file/d/1buqBKu6A6jpX8qwE42kU7xwLppYgxWHw/view?usp=drive_link",
       "https://drive.google.com/file/d/1cP_tzV6FCWAi6MS8NJl_VI6oLJ80LnHF/view?usp=drive_link"
+    ]  
+  },
+  {
+    "id": 22,
+    "titulo": "Establecimiento Las Marías\n100 Años",
+    "ruta": "Las-Marias",
+    "tipo": "commercials",
+    "enlace": "",
+    "creditos": "Establecimiento Las Marías - Historia de un lugar y su gente\nDir. Alejandro Berger Parrado\nProd. Navajo Films",
+    "foto": 0,
+    "home": 0,
+    "playlist": "",
+    "enlace-img": "https://www.youtube.com/watch?v=XJlZ6aKx13w",
+    "imagenes": [
+      "/media/LasMarias/LasMarias_1.png",
+      "/media/LasMarias/LasMarias_2.png",
+      "/media/LasMarias/LasMarias_3.png",
+      "/media/LasMarias/LasMarias_4.png",
+      "/media/LasMarias/LasMarias_5.png"
+    ],
+    "fuente-img": [
+      "https://drive.google.com/file/d/1PLCf9f43FLfluwl2PP6ptK-B2Z4lmsbH/view",
+      "https://drive.google.com/file/d/1dWQ120aADAaQl6Q04jFvHYBPAoAmTJ1u/view",
+      "https://drive.google.com/file/d/1b15vReDD0hGjV94zG9Q7aaYvsBnNfHHr/view",
+      "https://drive.google.com/file/d/1UyRaVvUiWz4B3rNfc-KH9bES7owjA0zd/view",
+      "https://drive.google.com/file/d/1ub4hKJP-lgokbTtqXAUl3mWP0LCOlJPV/view"
+    ]  
+  },
+  {
+    "id": 23,
+    "titulo": "NotCo\nNot Chicken",
+    "ruta": "Not-Co",
+    "tipo": "commercials",
+    "enlace": "wAEIYlgI01Q",
+    "creditos": "NotCo - Not Chicken\nDir. Mariano Nante & Olivia Sanchez Ruvial\nProd. Mamá Húngara",
+    "foto": 0,
+    "home": 0,
+    "playlist": "",
+    "enlace-img": "",
+    "imagenes": [
+      "/media/NotCo/NotCo_1.png",
+      "/media/NotCo/NotCo_2.png",
+      "/media/NotCo/NotCo_3.png",
+      "/media/NotCo/NotCo_4.png"
+    ],
+    "fuente-img": [
+      "https://drive.google.com/file/d/1gey0U2sq33n2YxG5D-GzQVPqRK_avLMu/view",
+      "https://drive.google.com/file/d/1zLIeaKYOkrlLI1awLwYoG7ND4kqfUo6o/view",
+      "https://drive.google.com/file/d/1zssoo4ibssgi1cUEEmd-7cMhhtf1V3j3/view",
+      "https://drive.google.com/file/d/1bau1qpx8TcvIaqANf72RyB8enH_LNqA-/view"
     ]  
   }
 ]
