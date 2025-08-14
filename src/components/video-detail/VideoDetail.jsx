@@ -14,17 +14,17 @@ const VideoDetail = ({ Datos }) => {
         return text;
     };
 
-    //le agregar un espacio al título en cada /n del json
-    const renderTitle = (titulo) => {
-        const lineas = titulo.split('\n');
-        return (
-            <div>
-            {lineas.map((linea, index) => (
-                <p key={index}>{linea}</p>
-            ))}
-            </div>
-        );
-    };
+const renderTitle = (titulo) => {
+  const lineas = titulo.split('\n');
+
+  return (
+    <div>
+      {lineas.map((linea, index) => (
+        <p key={index}>{linea.trim() === '' ? '\u00A0' : linea}</p>
+      ))}
+    </div>
+  );
+};
 
     const linkPlaylist = (videoFound) => {
         return(
@@ -67,7 +67,7 @@ const VideoDetail = ({ Datos }) => {
             )}
 
             <div className="VideoDetail__credits">
-                <p>{ renderTitle(videoFound.creditos) }</p>
+                <div>{ renderTitle(videoFound.creditos) }</div>
                 <p>{ videoFound.playlist && 
                 <>{playlist(videoFound)} {linkPlaylist(videoFound)}</>}</p>
             </div>
