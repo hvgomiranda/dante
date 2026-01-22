@@ -9,12 +9,12 @@ const Videos = ({ Datos }) => {
     //film and tv series
     const order = {
         "film-tv-series": [6, 7, 8, 9, 11, 1, 10, 12],
-        "music-videos": [0, 3, 4, 5, 2],
+        "music-videos": [24, 0, 3, 4, 5, 2],
         "commercials": [23, 22, 14, 13, 15, 16, 17, 21, 18, 19, 20, 21]
     };
     const horizontal = {
         "film-tv-series": [8, 1],
-        "music-videos": [4],
+        "music-videos": [24, 4],
         "commercials": [15, 21, 20]
     };
 

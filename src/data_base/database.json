@@ -366,7 +366,7 @@
     "enlace": "AZprH9hCcPY",
     "creditos": "Levi’s (Hero I)\nDir.: Manu Aguer & Matías Petric, by Pantera & Co.",
     "foto": 0,
-    "home": 1,
+    "home": 0,
     "playlist": "PLJk7E_reFUL6XxFijSbYS0mp2Eu5Nlto6",
     "enlace-img": "",
     "imagenes": [
@@ -616,6 +616,36 @@
       "https://drive.google.com/file/d/1zLIeaKYOkrlLI1awLwYoG7ND4kqfUo6o/view",
       "https://drive.google.com/file/d/1zssoo4ibssgi1cUEEmd-7cMhhtf1V3j3/view",
       "https://drive.google.com/file/d/1bau1qpx8TcvIaqANf72RyB8enH_LNqA-/view"
+    ]  
+  },
+  {
+    "id": 24,
+    "titulo": "Kuelgue\nBarry Lindo (Official Music Video)",
+    "ruta": "Kuelgue-Barry-Lindo",
+    "tipo": "music-videos",
+    "enlace": "do6GXPRR6x8",
+    "creditos": "Kuelgue - Barry Lindo (Official Music Video)\nDir.: León Greco & Julián Kartún",
+    "foto": 0,
+    "home": 1,
+    "playlist": "",
+    "enlace-img": "",
+    "imagenes": [
+      "/media/EKBR/EK_1.png",
+      "/media/EKBR/EK_2.png",
+      "/media/EKBR/EK_3.png",
+      "/media/EKBR/EK_4.png",
+      "/media/EKBR/EK_5.png",
+      "/media/EKBR/EK_6.png",
+      "/media/EKBR/EK_7.png"
+    ],
+    "fuente-img": [
+      "https://drive.google.com/file/d/1g4oxK6ghQFwiYJtZkoAMN_IKol0N4hni/view?usp=drive_link",
+      "https://drive.google.com/file/d/1s0jMJadogdz39YWqKpmuE8kUZSispN0z/view?usp=drive_link",
+      "https://drive.google.com/file/d/1MOjz-U15CNuPQ0M9dcVmWg4-cKU-83fI/view?usp=sharing",
+      "https://drive.google.com/file/d/1jgnGRz-WveXqfhjKXFh-udXZ4V5Fs13q/view?usp=sharing",
+      "https://drive.google.com/file/d/1B9rd1hT827j6uLsjMNzIWNp9Il4trNB3/view?usp=sharing",
+      "https://drive.google.com/file/d/1LBFpZKkXTsEKUaz4CzWAETiYnhftJ3ss/view?usp=sharing",
+      "https://drive.google.com/file/d/1gJvJcJxEnXTzkLd_DwkBjXWQq2mf5w5I/view?usp=sharing"
     ]  
   }
 ]
