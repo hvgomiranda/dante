@@ -10,7 +10,7 @@ const VideoDetail = ({ Datos }) => {
     const playlist = (videoFound) => {
         let text;
         if(videoFound.tipo === "commercials") text = "watch the full campaign ";
-        else if(videoFound.tipo === "film-tv-series") text = "Watch the whole serie "
+        else if(videoFound.tipo === "film-tv-series") text = "Watch the full series "
         return text;
     };
 

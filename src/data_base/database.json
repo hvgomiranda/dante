@@ -440,21 +440,22 @@
   },
   {
     "id": 17,
-    "titulo": "Perotá Chingó\nMuta: Campodónico",
-    "ruta": "Perota-Chingo-Muta-Campodonico",
+    "titulo": "Perotá Chingó\nMuta",
+    "ruta": "Perota-Chingo-Muta",
     "tipo": "commercials",
     "enlace": "r74pPT-AYhk",
-    "creditos": "Perotá Chingó - Muta: Campodónico",
+    "creditos": "Perotá Chingó - Muta",
     "foto": 0,
     "home": 1,
-    "playlist": "",
+    "playlist": "PLJk7E_reFUL5N1g9l_zxE_PwahFQUaC2V",
     "enlace-img": "",
     "imagenes": [
-      "/media/Muta/Muta_5.png",
       "/media/Muta/Muta_1.png",
       "/media/Muta/Muta_2.png",
       "/media/Muta/Muta_3.png",
-      "/media/Muta/Muta_4.png"
+      "/media/Muta/Muta_4.png",
+      "/media/Muta/Muta_5.png",
+      "/media/Muta/Muta_6.png"
     ],
     "fuente-img": [
       "https://drive.google.com/file/d/1ZdhIJMRbsqnKAm74SfbApU9Ty6rq2MuB/view?usp=drive_link",
@@ -462,86 +463,6 @@
       "https://drive.google.com/file/d/1W4nEUziV6IzER3O5mUNqJR8IOvZ65TV5/view?usp=drive_link",
       "https://drive.google.com/file/d/1O9qUBbTottK6FAkW_O7TKX1yXO40uENy/view?usp=drive_link",
       "https://drive.google.com/file/d/1Jcfh1jAnmdD7Vz8AOEL0cvJci6KvvGMF/view?usp=drive_link"
-    ]
-  },
-  {
-    "id": 18,
-    "titulo": "Perotá Chingó\nMuta: Eksperimenta I/II",
-    "ruta": "Perota-Chingo-Muta-Eksperimenta",
-    "tipo": "commercials",
-    "enlace": "5VrU0tSXySM",
-    "creditos": "Perotá Chingó - Muta: Eksperimenta I/II",
-    "foto": 0,
-    "home": 0,
-    "playlist": "",
-    "enlace-img": "",
-    "imagenes": [
-      "/media/Muta2/Muta21.png",
-      "/media/Muta2/Muta22.png",
-      "/media/Muta2/Muta23.png",
-      "/media/Muta2/Muta24.png",
-      "/media/Muta2/Muta25.png",
-      "/media/Muta2/Muta26.png"
-    ],
-    "fuente-img": [
-      "https://drive.google.com/file/d/19k6bweKN3pvUMz4AjH68tkg_8Nziv2gf/view?usp=drive_link",
-      "https://drive.google.com/file/d/1l9S6ozuQeCIfxmWslJTadI3vk_9n2c6G/view?usp=drive_link",
-      "https://drive.google.com/file/d/1qdjCLhz1ivD_FrNg7-SL2z1R0n3Zf4s3/view?usp=drive_link",
-      "https://drive.google.com/file/d/1muVRD_IyR70tisufBNa7GLIVcqBQEE7A/view?usp=drive_link",
-      "https://drive.google.com/file/d/1fAXrFn69qgVwDtx7BY8M_AuBP8_0JSgv/view?usp=drive_link",
-      "https://drive.google.com/file/d/1BkNSu0pBjbW8zWyKrXkq9KpQyX0MgU46/view?usp=drive_link"
-    ]
-  },
-  {
-    "id": 19,
-    "titulo": "Perotá Chingó\nMuta: Retiros",
-    "ruta": "Perota-Chingo-Muta-Retiros",
-    "tipo": "commercials",
-    "enlace": "gu8vyBTR46I",
-    "creditos": "Perotá Chingó - Muta: Retiros",
-    "foto": 0,
-    "home": 0,
-    "playlist": "",
-    "enlace-img": "",
-    "imagenes": [
-      "/media/Muta3/Muta31.png",
-      "/media/Muta3/Muta32.png",
-      "/media/Muta3/Muta33.png",
-      "/media/Muta3/Muta35.png",
-      "/media/Muta3/Muta36.png"
-    ],
-    "fuente-img": [
-      "https://drive.google.com/file/d/1obVMYaBnhAZg9F7b9JByIRvTpSDQCpaE/view?usp=drive_link",
-      "https://drive.google.com/file/d/1On6Z5NiqyZw-nFX54xLCGJphWnd0a2Ey/view?usp=drive_link",
-      "https://drive.google.com/file/d/1osO0aCTTp387IcLWfH87w2qzqmzJ_PZw/view?usp=drive_link",
-      "https://drive.google.com/file/d/1r065Grl0vWtyQyJKM4Y8RpdjbkAwc1By/view?usp=drive_link",
-      "https://drive.google.com/file/d/1SLx3Nsh2lCNNCx5FAFFG_9vt4IJk9iUH/view?usp=drive_link"
-    ]
-  },
-  {
-    "id": 20,
-    "titulo": "Perotá Chingó\nEKS3 (Official Trailer)",
-    "ruta": "Perota-Chingo-Muta-EKS3",
-    "tipo": "commercials",
-    "enlace": "0BHERKdQiIQ",
-    "creditos": "Perotá Chingó - EKS3 (Official Trailer)",
-    "foto": 0,
-    "home": 0,
-    "playlist": "",
-    "enlace-img": "",
-    "imagenes": [
-      "/media/EKS3/EKS3_1.jpg",
-      "/media/EKS3/EKS3_2.jpg",
-      "/media/EKS3/EKS3_3.jpg",
-      "/media/EKS3/EKS3_4.jpg",
-      "/media/EKS3/EKS3_5.jpg"
-    ],
-    "fuente-img": [
-      "https://drive.google.com/file/d/1WIEHEIpVBfWMShSOuK1Nacz5x2b06dxB/view?usp=drive_link",
-      "https://drive.google.com/file/d/1a7B2sVNWQYe594b2fIw4sU18sTaVIWtO/view?usp=drive_link",
-      "https://drive.google.com/file/d/1ONujXWUfING3ERs_fYh_Uew979XbAW_n/view?usp=drive_link",
-      "https://drive.google.com/file/d/1x8xIIsYjMAkbTCm_RePmyA5Aph4qVfzF/view?usp=drive_link",
-      "https://drive.google.com/file/d/14KhIPVRkXhRfUbYLaSD9v7zih27rFjrG/view?usp=drive_link"
     ]
   },
   {
