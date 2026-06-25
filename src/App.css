@@ -1,6 +1,7 @@
 .App{
   display: grid;
   grid-template-columns: 1fr 7fr;
+  min-height: 100dvh;
 }
 
 .Left{
@@ -12,6 +13,54 @@
   top: 0;
   position: sticky;
   position: -webkit-sticky;
+}
+
+.App--home{
+  display: block;
+  position: relative;
+  min-height: 100dvh;
+  overflow: hidden;
+}
+
+.App--home .Left{
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  width: 12.5vw;
+  min-width: 145px;
+  background-color: rgba(255, 255, 255, var(--home-nav-opacity));
+  transition: background-color 120ms linear;
+}
+
+.App--home .Header{
+  mix-blend-mode: difference;
+}
+
+.App--home .Header-title,
+.App--home .Header-subtitle{
+  color: white;
+}
+
+.App--home.App--home-nav-active .Header{
+  mix-blend-mode: normal;
+}
+
+.App--home.App--home-nav-active .Header-title,
+.App--home.App--home-nav-active .Header-subtitle{
+  color: #2e2e2d;
+}
+
+.App--home .Menu,
+.App--home .Footer{
+  opacity: var(--home-nav-opacity);
+  transition: opacity 120ms linear;
+}
+
+.App--home .Right{
+  position: fixed;
+  inset: 0;
+  z-index: 1;
 }
 
 @media (max-width: 768px){
@@ -31,5 +80,20 @@
     position: sticky;
     z-index: 1000;
     background-color: white;
+  }
+
+  .App--home{
+    display: block;
+  }
+
+  .App--home .Left{
+    width: 100%;
+    min-width: 0;
+    height: 8vh;
+  }
+
+  .App--home .Right{
+    position: fixed;
+    inset: 0;
   }
 }

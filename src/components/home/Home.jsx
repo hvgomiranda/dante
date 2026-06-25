@@ -1,25 +1,24 @@
 import "./Home.css";
-import HomeSection from "../home-section/HomeSection.jsx";
 
-const Home = ({ Media }) => {
+const portfolioVideoWebm = "/media/Portfolio/REEL_PORTFOLIO_V06_mos-low.webm";
+const portfolioVideoMp4 = "/media/Portfolio/REEL_PORTFOLIO_V06_mos-low.mp4";
 
-    const order = [6, 7, 24, 0, 13, 14, 8, 15, 1, 2, 16, 17];
-    const horizontal = [13, 8, 2];
-    const Datos = Media.sort((a, b) => order.indexOf(a.id) -  order.indexOf(b.id));
+const Home = () => {
 
-    window.scrollTo(0,0);
-
-    return(  
+    return(
         <div className="Home">
-            {Datos.filter(item => item.home).map((item, index) => (
-                <HomeSection
-                key={index}
-                index={horizontal}
-                Media={item}
-                />
-            ))}
+            <video
+                className="Home__video"
+                autoPlay
+                muted
+                loop
+                playsInline
+            >
+                <source src={portfolioVideoWebm} type="video/webm" />
+                <source src={portfolioVideoMp4} type="video/mp4" />
+            </video>
         </div>
-    );
+    )
 }
 
 export default Home;

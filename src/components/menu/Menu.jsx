@@ -39,12 +39,8 @@ const MobileMenu = () => {
                 <li><Link to={"/section/commercials"} className="Menu-item" onClick={closeMenu}>Commercials</Link></li>
             </ul>
             <div className="Menu__footer">
-                <ul className="Menu__footer-item-list">
-                    <li><a href="https://www.imdb.com/name/nm13629021/" target="_blank" rel="noreferrer" onClick={closeMenu}>IMDB</a></li>
-                    <li><a href="https://www.instagram.com/danteperini/" target="_blank" rel="noreferrer" onClick={closeMenu}>IG</a></li>
-                    <li><a href="https://www.linkedin.com/in/perinidante/" target="_blank" rel="noreferrer" onClick={closeMenu}>LinkedIn</a></li>
-                </ul>
-                <p className="Menu__footer-item"><Link to={"/contact"} onClick={closeMenu}>perinidante@gmail.com</Link></p>
+                <p className="Menu__footer-item"><Link to={"/about"} onClick={closeMenu}>About</Link></p>
+                <p className="Menu__footer-item"><Link to={"/contact"} onClick={closeMenu}>Contact</Link></p>
                 <p className="Menu__footer-item">Based in Buenos Aires.</p>
             </div>
         </MenuBar>
