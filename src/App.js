@@ -68,7 +68,7 @@ function App() {
     <div
       className={`App${isHome ? " App--home" : ""}`}
       onMouseMove={handleHomeMouseMove}
-      style={{ "--home-nav-opacity": 1 }}
+      style={{ "--home-nav-opacity": isHome ? 0 : 1 }}
     >
       <div className='Left'>
         <Header />

@@ -13,7 +13,7 @@
     text-overflow: clip;
 }
 .Header-title{
-    font-weight: 600;
+    font-weight: 400;
     font-size: 1.15rem;
     color: #2e2e2d;
     text-decoration: none;
@@ -37,6 +37,7 @@
     }
     .Header-title{
         font-size: 1rem;
+        font-weight: 400;
         color: white;
     }
     .Header-subtitle{
