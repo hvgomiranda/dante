@@ -1,16 +1,18 @@
 .About{
     display: grid;
-    grid-template-columns: minmax(160px, 18vw) minmax(320px, 1fr);
-    gap: 40px;
+    grid-template-columns: 360px minmax(560px, 840px);
+    gap: 36px;
     min-height: 100dvh;
-    padding: 10px 40px 10px 0;
+    padding: 0 5vw 0 0;
     box-sizing: border-box;
-    align-items: start;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
 }
 
 .About__image{
     width: 100%;
-    height: min(calc(60dvh - 12px), 26.4vw);
+    height: 480px;
     object-fit: cover;
     display: block;
 }
@@ -21,8 +23,8 @@
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 1rem;
-    line-height: 1.45;
+    font-size: 1.08rem;
+    line-height: 1.42;
     color: #2e2e2d;
 }
 
@@ -38,7 +40,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 0 18px;
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
 
 .About__links a{

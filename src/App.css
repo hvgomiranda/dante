@@ -112,24 +112,11 @@
     inset: 0;
   }
 
-  .App--home .Header,
-  .App--home .Menu,
-  .App--home .Footer,
-  .App--home.App--home-nav-visible .Header,
-  .App--home.App--home-nav-visible .Menu,
-  .App--home.App--home-nav-visible .Footer{
-    mix-blend-mode: normal;
-  }
-
-  .App--home .Header-title,
-  .App--home .Header-subtitle,
   .App--home.App--home-nav-visible .Header-title,
-  .App--home.App--home-nav-visible .Header-subtitle{
-    color: white;
-  }
-
-  .App--home .Menu-item,
+  .App--home.App--home-nav-visible .Header-subtitle,
   .App--home.App--home-nav-visible .Menu-item{
     color: white;
+    mix-blend-mode: difference;
   }
+
 }

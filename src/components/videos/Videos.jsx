@@ -4,7 +4,7 @@ import { useParams } from "react-router-dom";
 import { useEffect, useMemo } from "react";
 
 const order = {
-    "film-tv-series": [25, 26, 27, 6, 7, 8, 9, 11, 1, 10, 12],
+    "film-tv-series": [27, 26, 25, 6, 7, 8, 9, 11, 1, 10, 12],
     "music-videos": [24, 0, 3, 4, 5, 2],
     "commercials": [28, 23, 22, 14, 13, 15, 16, 17, 21, 18, 19, 20, 21]
 };

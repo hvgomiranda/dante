@@ -6,7 +6,6 @@ const sitemap = new SitemapStream({ hostname: 'https://perinidante.ar/' });
 
 // Añadir las rutas manualmente
 sitemap.write({ url: '/', changefreq: 'monthly', priority: 1.0 });
-sitemap.write({ url: '/contact', changefreq: 'monthly', priority: 0.9 });
 sitemap.write({ url: '/about', changefreq: 'monthly', priority: 0.8 });
 sitemap.write({ url: '/section/film-tv-series', changefreq: 'monthly', priority: 0.7 });
 sitemap.write({ url: '/section/music-videos', changefreq: 'monthly', priority: 0.7 });

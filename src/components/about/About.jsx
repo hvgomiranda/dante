@@ -21,8 +21,6 @@ const About = () => {
 
                 <p>He is co-founder of Trigo Estudio, a Buenos Aires&ndash;based post-production company. He is currently studying Music and pursuing a degree in Literature at the University of Buenos Aires.</p>
 
-                <p>Member of the EDA and SAE editors' associations.</p>
-
                 <div className="About__links">
                     <a href="mailto:perinidante@gmail.com">perinidante@gmail.com</a>
                     <a href="https://www.imdb.com/name/nm13629021/" target="_blank" rel="noreferrer">IMDB</a>
