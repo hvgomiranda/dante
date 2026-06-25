@@ -26,6 +26,7 @@ function App() {
 
       app.style.setProperty("--home-nav-opacity", 0);
       app.classList.remove("App--home-nav-active");
+      app.classList.remove("App--home-nav-visible");
     };
 
     window.addEventListener("mouseout", handleWindowMouseOut);
@@ -52,13 +53,15 @@ function App() {
 
     if (isOverSidebar) {
       event.currentTarget.style.setProperty("--home-nav-opacity", 1);
+      event.currentTarget.classList.add("App--home-nav-visible");
       return;
     }
 
-    const fadeDistance = window.innerWidth / 2;
+    const fadeDistance = window.innerWidth * 0.3;
     const opacity = Math.max(0, Math.min(1, 1 - event.clientX / fadeDistance));
 
     event.currentTarget.style.setProperty("--home-nav-opacity", opacity);
+    event.currentTarget.classList.toggle("App--home-nav-visible", opacity > 0.05);
   };
 
   return (

@@ -1,6 +1,6 @@
 .About{
     display: grid;
-    grid-template-columns: minmax(260px, 36vw) minmax(320px, 1fr);
+    grid-template-columns: minmax(160px, 18vw) minmax(320px, 1fr);
     gap: 40px;
     min-height: 100dvh;
     padding: 10px 40px 10px 0;
@@ -10,7 +10,7 @@
 
 .About__image{
     width: 100%;
-    height: calc(100dvh - 20px);
+    height: min(calc(60dvh - 12px), 26.4vw);
     object-fit: cover;
     display: block;
 }

@@ -37,8 +37,10 @@
     }
     .Header-title{
         font-size: 1rem;
+        color: white;
     }
     .Header-subtitle{
         font-size: 0.8rem;
+        color: white;
     }
 }

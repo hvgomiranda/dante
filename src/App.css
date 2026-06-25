@@ -33,28 +33,36 @@
   transition: background-color 120ms linear;
 }
 
-.App--home .Header{
+.App--home .Header,
+.App--home .Menu,
+.App--home .Footer{
   mix-blend-mode: difference;
 }
 
 .App--home .Header-title,
-.App--home .Header-subtitle{
+.App--home .Header-subtitle,
+.App--home .Menu-item,
+.App--home .Footer,
+.App--home .Footer a,
+.App--home .Footer-item,
+.App--home .Footer-item a{
   color: white;
 }
 
-.App--home.App--home-nav-active .Header{
+.App--home.App--home-nav-visible .Header,
+.App--home.App--home-nav-visible .Menu,
+.App--home.App--home-nav-visible .Footer{
   mix-blend-mode: normal;
 }
 
-.App--home.App--home-nav-active .Header-title,
-.App--home.App--home-nav-active .Header-subtitle{
+.App--home.App--home-nav-visible .Header-title,
+.App--home.App--home-nav-visible .Header-subtitle,
+.App--home.App--home-nav-visible .Menu-item,
+.App--home.App--home-nav-visible .Footer,
+.App--home.App--home-nav-visible .Footer a,
+.App--home.App--home-nav-visible .Footer-item,
+.App--home.App--home-nav-visible .Footer-item a{
   color: #2e2e2d;
-}
-
-.App--home .Menu,
-.App--home .Footer{
-  opacity: var(--home-nav-opacity);
-  transition: opacity 120ms linear;
 }
 
 .App--home .Right{
@@ -77,9 +85,15 @@
     align-items: center;
     text-justify: justify;
     top: 0;
-    position: sticky;
+    position: fixed;
     z-index: 1000;
-    background-color: white;
+    background-color: transparent;
+    pointer-events: none;
+  }
+
+  .Left .Header,
+  .Left .Menu{
+    pointer-events: auto;
   }
 
   .App--home{
@@ -90,10 +104,32 @@
     width: 100%;
     min-width: 0;
     height: 8vh;
+    background-color: transparent;
   }
 
   .App--home .Right{
     position: fixed;
     inset: 0;
+  }
+
+  .App--home .Header,
+  .App--home .Menu,
+  .App--home .Footer,
+  .App--home.App--home-nav-visible .Header,
+  .App--home.App--home-nav-visible .Menu,
+  .App--home.App--home-nav-visible .Footer{
+    mix-blend-mode: normal;
+  }
+
+  .App--home .Header-title,
+  .App--home .Header-subtitle,
+  .App--home.App--home-nav-visible .Header-title,
+  .App--home.App--home-nav-visible .Header-subtitle{
+    color: white;
+  }
+
+  .App--home .Menu-item,
+  .App--home.App--home-nav-visible .Menu-item{
+    color: #2e2e2d;
   }
 }

@@ -1,8 +1,6 @@
 import "./Menu.css";
 import { Link } from 'react-router-dom';
-import { useState } from "react";
 import { useMediaQuery } from "react-responsive";
-import { slide as MenuBar} from 'react-burger-menu';
 
 const DesktopMenu = () => (
     <nav className="Menu">
@@ -14,38 +12,17 @@ const DesktopMenu = () => (
     </nav>
   );
   
-const MobileMenu = () => {
-    
-    const [menuOpen, setMenuOpen] = useState(false); 
-    
-    const handleStateChange = (state) => {
-        setMenuOpen(state.isOpen);
-    };
-    
-    const closeMenu = () => {
-        setMenuOpen(false);
-    };
-    
-    return(
-        <MenuBar 
-        isOpen={menuOpen}
-        onStateChange={handleStateChange}
-        right
-        noTransition
-        className={`Menu ${menuOpen ? 'Menu__open' : 'Menu__closed'}`}>
-            <ul  className="Menu-list">
-                <li><Link to={"/section/film-tv-series"} className="Menu-item" onClick={closeMenu}>Film / TV series</Link></li>
-                <li><Link to={"/section/music-videos"} className="Menu-item" onClick={closeMenu}>Music Videos</Link></li>
-                <li><Link to={"/section/commercials"} className="Menu-item" onClick={closeMenu}>Commercials</Link></li>
-            </ul>
-            <div className="Menu__footer">
-                <p className="Menu__footer-item"><Link to={"/about"} onClick={closeMenu}>About</Link></p>
-                <p className="Menu__footer-item"><Link to={"/contact"} onClick={closeMenu}>Contact</Link></p>
-                <p className="Menu__footer-item">Based in Buenos Aires.</p>
-            </div>
-        </MenuBar>
-    )
-};
+const MobileMenu = () => (
+    <nav className="Menu Menu--mobile">
+        <ul className="Menu-list">
+            <li><Link to={"/section/film-tv-series"} className="Menu-item">Film / TV series</Link></li>
+            <li><Link to={"/section/music-videos"} className="Menu-item">Music Videos</Link></li>
+            <li><Link to={"/section/commercials"} className="Menu-item">Commercials</Link></li>
+            <li><Link to={"/about"} className="Menu-item">About</Link></li>
+            <li><Link to={"/contact"} className="Menu-item">Contact</Link></li>
+        </ul>
+    </nav>
+);
 
 const Menu = () => {
 

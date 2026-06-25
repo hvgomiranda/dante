@@ -2,7 +2,7 @@ const { SitemapStream, streamToPromise } = require('sitemap');
 const { createWriteStream } = require('fs');
 
 // Crear el stream del sitemap
-const sitemap = new SitemapStream({ hostname: 'https://perinidante.com.ar/' });
+const sitemap = new SitemapStream({ hostname: 'https://perinidante.ar/' });
 
 // Añadir las rutas manualmente
 sitemap.write({ url: '/', changefreq: 'monthly', priority: 1.0 });
