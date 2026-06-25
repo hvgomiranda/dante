@@ -1,4 +1,5 @@
 import './App.css';
+import { useEffect } from 'react';
 import { Route, Routes, useLocation } from 'react-router-dom';
 import Datos from "./data_base/database.json";
 import Header from "./components/header/Header.jsx";
@@ -13,6 +14,26 @@ import VideoDetail from "./components/video-detail/VideoDetail.jsx";
 function App() {
   const location = useLocation();
   const isHome = location.pathname === "/";
+
+  useEffect(() => {
+    if (!isHome) return;
+
+    const handleWindowMouseOut = (event) => {
+      if (event.relatedTarget || event.toElement) return;
+
+      const app = document.querySelector(".App--home");
+      if (!app) return;
+
+      app.style.setProperty("--home-nav-opacity", 0);
+      app.classList.remove("App--home-nav-active");
+    };
+
+    window.addEventListener("mouseout", handleWindowMouseOut);
+
+    return () => {
+      window.removeEventListener("mouseout", handleWindowMouseOut);
+    };
+  }, [isHome]);
 
   const handleHomeMouseMove = (event) => {
     if (!isHome) return;

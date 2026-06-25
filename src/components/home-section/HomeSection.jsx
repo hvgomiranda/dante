@@ -44,6 +44,11 @@ const HomeSection = ({ Media, index }) => {
 
     //precarga de imágenes
     useEffect(() => {
+        let isActive = true;
+
+        setShowCarousel(false);
+        setImagesLoaded(false);
+
         const preloadImages = () => {
             const imagePromises = Media.imagenes.map((photo) => {
                 return new Promise((resolve, reject) => {
@@ -55,11 +60,19 @@ const HomeSection = ({ Media, index }) => {
             });
 
             Promise.all(imagePromises)
-                .then(() => setImagesLoaded(true))
+                .then(() => {
+                    if (isActive) {
+                        setImagesLoaded(true);
+                    }
+                })
                 .catch((error) => console.error("Error preloading images:", error));
         };
 
         preloadImages();
+
+        return () => {
+            isActive = false;
+        };
     }, [Media.imagenes]);
 
     return (
