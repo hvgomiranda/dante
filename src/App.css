@@ -33,12 +33,6 @@
   transition: background-color 120ms linear;
 }
 
-.App--home .Header,
-.App--home .Menu,
-.App--home .Footer{
-  mix-blend-mode: difference;
-}
-
 .App--home .Header-title,
 .App--home .Header-subtitle,
 .App--home .Menu-item,
@@ -47,12 +41,6 @@
 .App--home .Footer-item,
 .App--home .Footer-item a{
   color: white;
-}
-
-.App--home.App--home-nav-visible .Header,
-.App--home.App--home-nav-visible .Menu,
-.App--home.App--home-nav-visible .Footer{
-  mix-blend-mode: normal;
 }
 
 .App--home.App--home-nav-visible .Header-title,
@@ -116,14 +104,21 @@
   .App--home .Header-subtitle,
   .App--home .Menu-item{
     color: white;
-    mix-blend-mode: difference;
   }
 
   .App--video-detail .Header-title,
   .App--video-detail .Header-subtitle,
   .App--video-detail .Menu-item{
     color: #2e2e2d;
-    mix-blend-mode: normal;
+  }
+
+  .App--about .Left{
+    background-color: #2e2e2d;
+  }
+
+  .App--about .Header-title,
+  .App--about .Header-subtitle{
+    color: white;
   }
 
 }

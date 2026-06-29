@@ -39,11 +39,9 @@
         font-size: 1rem;
         font-weight: 400;
         color: white;
-        mix-blend-mode: difference;
     }
     .Header-subtitle{
         font-size: 0.8rem;
         color: white;
-        mix-blend-mode: difference;
     }
 }
