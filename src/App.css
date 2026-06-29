@@ -106,6 +106,12 @@
     color: white;
   }
 
+  .App--home.App--home-nav-visible .Header-title,
+  .App--home.App--home-nav-visible .Header-subtitle,
+  .App--home.App--home-nav-visible .Menu-item{
+    color: white;
+  }
+
   .App--video-detail .Header-title,
   .App--video-detail .Header-subtitle,
   .App--video-detail .Menu-item{
@@ -113,12 +119,8 @@
   }
 
   .App--about .Left{
-    background-color: #2e2e2d;
-  }
-
-  .App--about .Header-title,
-  .App--about .Header-subtitle{
-    color: white;
+    position: absolute;
+    background-color: transparent;
   }
 
 }

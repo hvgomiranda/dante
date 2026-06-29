@@ -39,6 +39,7 @@ function App() {
 
   const handleHomeMouseMove = (event) => {
     if (!isHome) return;
+    if (window.matchMedia("(max-width: 768px)").matches) return;
 
     const sidebar = event.currentTarget.querySelector(".Left");
     if (!sidebar) return;
