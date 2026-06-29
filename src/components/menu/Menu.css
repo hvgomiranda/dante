@@ -2,7 +2,7 @@
     list-style-type: none;
     padding-inline-start: 0px;
 }
-.Menu > * :hover{
+.Menu-item:hover{
     font-style: italic;
 }
 .Menu > * ::selection{

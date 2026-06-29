@@ -112,11 +112,18 @@
     inset: 0;
   }
 
-  .App--home.App--home-nav-visible .Header-title,
-  .App--home.App--home-nav-visible .Header-subtitle,
-  .App--home.App--home-nav-visible .Menu-item{
+  .App--home .Header-title,
+  .App--home .Header-subtitle,
+  .App--home .Menu-item{
     color: white;
     mix-blend-mode: difference;
+  }
+
+  .App--video-detail .Header-title,
+  .App--video-detail .Header-subtitle,
+  .App--video-detail .Menu-item{
+    color: #2e2e2d;
+    mix-blend-mode: normal;
   }
 
 }

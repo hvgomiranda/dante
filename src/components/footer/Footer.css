@@ -6,7 +6,7 @@
 .Footer > * ::selection{
     color: #00ffff;
 }
-.Footer > * :hover{
+.Footer-item a:hover{
     font-style: italic;
 }
 .Footer-item{

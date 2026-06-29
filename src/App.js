@@ -13,6 +13,7 @@ import VideoDetail from "./components/video-detail/VideoDetail.jsx";
 function App() {
   const location = useLocation();
   const isHome = location.pathname === "/";
+  const isVideoDetail = location.pathname.startsWith("/video/");
 
   useEffect(() => {
     if (!isHome) return;
@@ -65,7 +66,7 @@ function App() {
 
   return (
     <div
-      className={`App${isHome ? " App--home" : ""}`}
+      className={`App${isHome ? " App--home" : ""}${isVideoDetail ? " App--video-detail" : ""}`}
       onMouseMove={handleHomeMouseMove}
       style={{ "--home-nav-opacity": isHome ? 0 : 1 }}
     >

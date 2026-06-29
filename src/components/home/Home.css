@@ -2,10 +2,12 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    position: relative;
     width: 100%;
     height: 100dvh;
     min-height: 100dvh;
     overflow: hidden;
+    background-color: #000;
 }
 
 .Home__video{
@@ -13,4 +15,15 @@
     height: 100%;
     object-fit: cover;
     display: block;
+}
+
+@media (max-width: 768px){
+    .Home__video{
+        position: absolute;
+        inset: -2px;
+        width: calc(100% + 4px);
+        height: calc(100% + 4px);
+        transform: translateZ(0);
+        -webkit-transform: translateZ(0);
+    }
 }

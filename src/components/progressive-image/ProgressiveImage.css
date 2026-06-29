@@ -1,0 +1,19 @@
+.ProgressiveImage{
+    background-color: #d8d8d8;
+    filter: blur(18px);
+    opacity: 0.65;
+    transform: scale(1.025);
+    transition: filter 500ms ease, opacity 500ms ease, transform 500ms ease;
+}
+
+.ProgressiveImage--loaded{
+    filter: blur(0);
+    opacity: 1;
+    transform: scale(1);
+}
+
+@media (prefers-reduced-motion: reduce){
+    .ProgressiveImage{
+        transition: none;
+    }
+}

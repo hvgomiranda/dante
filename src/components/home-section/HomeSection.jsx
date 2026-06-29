@@ -2,6 +2,7 @@ import "./HomeSection.css";
 import React, { useState, useEffect } from 'react';
 import { Link } from "react-router-dom"
 import { useMediaQuery } from "react-responsive";
+import ProgressiveImage from "../progressive-image/ProgressiveImage";
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -93,11 +94,12 @@ const HomeSection = ({ Media, index }) => {
                                 <Slider {...settings} className="HomeSection__slider">
                                     {Media.imagenes.map((photo, index) => (
                                         <div key={ index }>
-                                            <img
+                                            <ProgressiveImage
                                                 className="HomeSection__image"
                                                 src={ photo }
                                                 alt={`${Media.titulo} - ${index+1}`}
                                                 loading="lazy"
+                                                progressive={false}
                                             />
                                         </div>
                                     ))}
@@ -114,10 +116,11 @@ const HomeSection = ({ Media, index }) => {
                     <div className={check(Media, index) ? "HomeSection__containerLarge" : "HomeSection__container"}>
                         <Link to={`/video/${Media.ruta}`}>
                             <div className="HomeSection__slider">
-                                <img
+                                <ProgressiveImage
                                     className="HomeSection__image"
                                     src={Media.imagenes[0]}
                                     alt={`${Media.titulo}`}
+                                    loading="eager"
                                 />
                             </div>
                             {isMobile && 
@@ -137,11 +140,12 @@ const HomeSection = ({ Media, index }) => {
                                 <Slider {...settings} className="HomeSection__slider">
                                     {Media.imagenes.map((photo, index) => (
                                         <div key={ index }>
-                                            <img
+                                            <ProgressiveImage
                                                 className="HomeSection__image"
                                                 src={ photo }
                                                 alt={`${Media.titulo} - ${index+1}`}
                                                 loading="lazy"
+                                                progressive={false}
                                             />
                                         </div>
                                     ))}
@@ -158,10 +162,11 @@ const HomeSection = ({ Media, index }) => {
                     <div className={check(Media, index) ? "HomeSection__containerLarge" : "HomeSection__container"}>
                         <Link to={`/video/${Media.ruta}`}>
                             <div className="HomeSection__slider">
-                                <img
+                                <ProgressiveImage
                                     className="HomeSection__image"
                                     src={Media.imagenes[0]}
                                     alt={`${Media.titulo}`}
+                                    loading="eager"
                                 />
                             </div>
                             {isMobile && 
