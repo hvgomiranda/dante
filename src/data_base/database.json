@@ -653,5 +653,51 @@
     ],
     "fuente-img": [
     ]  
+  },
+  {
+    "id": 29,
+    "titulo": "Este amigo Imaginario (Series)",
+    "ruta": "Este-amigo-imaginario",
+    "tipo": "film-tv-series",
+    "enlace": "mjgF-rtC-TY",
+    "creditos": "Este Amigo Imaginario (Series)\neditor + music editor + graphic designer\n\nDir.: Paulo Soria\nProd.: Navajo Films\nPlatform: Shorta",
+    "foto": 0,
+    "home": 0,
+    "playlist": "",
+    "enlace-img": "",
+    "imagenes": [
+      "/media/EsteAmigoImaginario/EAI_still01.webp",
+      "/media/EsteAmigoImaginario/EAI_still02.webp",
+      "/media/EsteAmigoImaginario/EAI_still03.webp",
+      "/media/EsteAmigoImaginario/EAI_still04.webp",
+      "/media/EsteAmigoImaginario/EAI_still05.webp",
+      "/media/EsteAmigoImaginario/EAI_still06.webp",
+      "/media/EsteAmigoImaginario/EAI_still07.webp",
+      "/media/EsteAmigoImaginario/EAI_still08.webp"
+    ],
+    "fuente-img": [
+    ]  
+  },  
+  {
+    "id": 30,
+    "titulo": "Gutierrez Is Mai Neim (Disney+ Series)",
+    "ruta": "gutierrez-is-mai-neim",
+    "tipo": "film-tv-series",
+    "enlace": "8UVbuA4C3qg",
+    "creditos": "Gutierrez Is Mai Neim (Disney+ Series)\nCo-edited with Luz López Mañé, Inti Nieto, Cecilia Calarota.\n\nDir.: Jesús Braseras\nProd.: Pampa Films",
+    "foto": 0,
+    "home": 0,
+    "playlist": "",
+    "enlace-img": "",
+    "imagenes": [
+      "/media/GIMN/GIMN_Still01.webp",
+      "/media/GIMN/GIMN_Still02.webp",
+      "/media/GIMN/GIMN_Still03.webp",
+      "/media/GIMN/GIMN_Still04.webp",
+      "/media/GIMN/GIMN_Still05.webp",
+      "/media/GIMN/GIMN_Still06.webp"
+    ],
+    "fuente-img": [
+    ]  
   }
 ]
